@@ -393,13 +393,13 @@ echo "
 <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>
 <title>${user}'s Git Achievements</title>
 <link rel=\"alternate\" type=\"application/rss+xml\" title=\"rss feed\" href=\"index.rss\"/>
-<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>
+<!-- Latest compiled and minified CSS -->
+<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css\">
+<link rel=\"stylesheet\" href=\"style.css\">
 </head>
-<body>
+<body class=\"container\">
 " > index.html
     mailhash=`git config --global user.email | xargs echo -n | tr '[A-Z]' '[a-z]' | openssl md5 | sed -e 's/.* //'`
-    echo "<h2>${user}'s Git Achievements <img src='http://www.gravatar.com/avatar/${mailhash}'/></h2>" >> index.html
-
     # STATS
     cat git-achievements | grep 'unlock_achievement ' | grep -v ' sed ' | grep -v '\${' | sed -e 's/.*unlock_achievement //g' -e 's/^"//g' -e 's/"$//g' -e 's/\$power/X/g' -e 's/\$count/X/g' -e 's/\$hooks/X/g' | sort | awk -F"\" \"" '{ print "<li><div class=\"title\">" $1 "</div><div class=\"info\">" $2 "</div></li>" }' | link_to_git_docs > all.html
     total=`cat all.html | wc -l`
@@ -408,13 +408,23 @@ echo "
     levels=`clean_logged_achievements | awk '{ if (NR % 2 != 0) print $0 }' | grep Level | sed -e 's/.* //g' -e 's/)//g' | awk '{ t=t+$0 } END { print t }'`
     onelevels=`clean_logged_achievements | awk '{ if (NR % 2 != 0) print $0 }' | wc -l`
     let points="${levels}"+"${onelevels}"
-    echo "Unlocked ${unlockedCount}/$total <a href=\"http://github.com/icefox/git-achievements\">Git Achievements</a> for $points points<br>" >> index.html
+    echo "<div class='page-header'>
+  <div class='media'>
+    <a class='pull-left' href='#'>
+      <img class='media-object' src='http://www.gravatar.com/avatar/${mailhash}' alt='gravatar de diego'>
+    </a>
+    <div class='media-body'>
+      <h4 class='media-heading'>${user}'s Git Achievements</h4>
+      Unlocked ${unlockedCount}/$total <a href='http://github.com/icefox/git-achievements'>Git Achievements</a> for $points points
+    </div>
+  </div>
+</div>" >> index.html
 
     unlocked=`cat "${ACHIEVEMENTSLOGFILE}" | grep Unlocked | wc -l`
 
     # Unlocked Achievements
-    echo "<ul>" >> index.html
-    cat "${ACHIEVEMENTSLOGFILE}" | grep -ve '^$' | grep -v 'Git Achievement Unlocked!' | grep -v '*' | sed -e 's/^ *//g'  -e 's/ *$//g' | awk '{ if (NR % 2 != 0) printf "<li><div class=\"title\">" $0 "</div>"; else printf "  <div class=\"info\">" $0 "</div></li>\n" }' | link_to_git_docs | sort >> index.html
+    echo "<ul class='list-unstyled'>" >> index.html
+    cat "${ACHIEVEMENTSLOGFILE}" | grep -ve '^$' | grep -v 'Git Achievement Unlocked!' | grep -v '*' | sed -e 's/^ *//g'  -e 's/ *$//g' | awk '{ if (NR % 2 != 0) printf "<li><div class=\"panel panel-success\"><div class=\"panel-heading\">" $0 "</div>"; else printf "  <div class=\"panel-body\">" $0 "</div></li>\n" }' | link_to_git_docs | sort >> index.html
 
     echo "</ul>" >> index.html
 
@@ -427,8 +437,8 @@ echo "
     # Locked Achievements
     echo "<script type=\"text/javascript\">
 function showLocked() {
-    document.getElementById('locked').style.visibility = 'visible';
-    document.getElementById('showlocked').style.visibility = 'hidden';
+    document.getElementById('locked').style.display = 'block';
+    document.getElementById('showlocked').style.display = 'none';
 }
 </script>
 <a id=\"showlocked\" href=\"javascript:showLocked()\" >Show locked Achievements</a>
@@ -449,7 +459,12 @@ There are $total Achievements. Some achievements can be leveled up depending on 
     rm temp.html
     rm all.html
 
-    echo "</body></html>" >> index.html
+    echo "</body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src='https://code.jquery.com/jquery.js'></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src='http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js'></script>
+    </html>" >> index.html
 
     # Update the RSS feed
     echo '<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel>' > index.rss
