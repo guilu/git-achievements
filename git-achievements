@@ -444,7 +444,7 @@ echo "
 
 <h5>There are $total Achievements.</h5><h6><small>Some achievements can be leveled up depending on the number of times it is used (Used 2 times = level 1, 4 = level 2, 8 = level 3, 16 = level 4, 32 = level 5, etc)</small></h6>
 
-<ul>" >> index.html
+<ul class='list-unstyled'>" >> index.html
 
     cat index.html | sed -e 's/Apprentice //g' -e 's/Master //g'> temp.html
     cat all.html | while read line ;
