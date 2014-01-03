@@ -11,3 +11,80 @@ ul {
 }
 
 
+/*
+ * Callouts
+ *
+ * get from doc.css on bootstrap framework
+ */
+
+/* Common styles for all types */
+.bs-callout {
+  margin: 5px 0;
+  padding: 5px;
+  border-left: 3px solid #eee;
+  font-size:10px;
+}
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size:14px;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+
+/* Variations */
+.bs-callout-danger {
+  background-color: #fdf7f7;
+  border-color: #eed3d7;
+}
+.bs-callout-danger h4 {
+  color: #b94a48;
+}
+.bs-callout-danger p {
+  color: #a94442;
+}
+
+.bs-callout-warning {
+  background-color: #faf8f0;
+  border-color: #faebcc;
+}
+.bs-callout-warning h4 {
+  color: #8a6d3b;
+}
+.bs-callout-warning p{
+	color: #8a6d3b;
+}
+
+.bs-callout-info {
+  background-color: #f4f8fa;
+  border-color: #bce8f1;
+}
+.bs-callout-info h4 {
+  color: #34789a;
+}
+.bs-callout-info p{
+ color:#31708f;
+}
+
+.bs-callout-danger .bs-callout-link {
+color: #843534;
+}
+
+.instructions{
+	padding:10px;
+	font-size:10px;
+}
+.bs-callout-warning .bs-callout-link {
+color: #66512c;
+}
+.bs-callout-info .bs-callout-link {
+color: #245269;
+}
+.bs-callout-success .bs-callout-link {
+color: #2b542c;
+}
+
+.bs-callout .bs-callout-link {
+font-weight: bold;
+}

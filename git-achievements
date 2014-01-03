@@ -394,14 +394,14 @@ echo "
 <title>${user}'s Git Achievements</title>
 <link rel=\"alternate\" type=\"application/rss+xml\" title=\"rss feed\" href=\"index.rss\"/>
 <!-- Latest compiled and minified CSS -->
-<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css\">
+<link rel=\"stylesheet\" href=\"http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css\">
 <link rel=\"stylesheet\" href=\"style.css\">
 </head>
 <body class=\"container\">
 " > index.html
     mailhash=`git config --global user.email | xargs echo -n | tr '[A-Z]' '[a-z]' | openssl md5 | sed -e 's/.* //'`
     # STATS
-    cat git-achievements | grep 'unlock_achievement ' | grep -v ' sed ' | grep -v '\${' | sed -e 's/.*unlock_achievement //g' -e 's/^"//g' -e 's/"$//g' -e 's/\$power/X/g' -e 's/\$count/X/g' -e 's/\$hooks/X/g' | sort | awk -F"\" \"" '{ print "<li><div class=\"title\">" $1 "</div><div class=\"info\">" $2 "</div></li>" }' | link_to_git_docs > all.html
+    cat git-achievements | grep 'unlock_achievement ' | grep -v ' sed ' | grep -v '\${' | sed -e 's/.*unlock_achievement //g' -e 's/^"//g' -e 's/"$//g' -e 's/\$power/X/g' -e 's/\$count/X/g' -e 's/\$hooks/X/g' | sort | awk -F"\" \"" '{ print "<li><div class=\"bs-callout bs-callout-danger\"><h4>" $1 "</h4><p>" $2 "</p></div></li>" }' | link_to_git_docs > all.html
     total=`cat all.html | wc -l`
 
     unlockedCount=`clean_logged_achievements | awk '{ if (NR % 2 != 0) print $0 }' | sed -e 's/Apprentice //g' -e 's/Master //g' -e 's/(.*//g' | sort | uniq | wc -l`
@@ -418,15 +418,19 @@ echo "
       Unlocked ${unlockedCount}/$total <a href='http://github.com/icefox/git-achievements'>Git Achievements</a> for $points points
     </div>
   </div>
-</div>" >> index.html
+</div>
+<div class=\"row\">
+<div class=\"col-lg-8\">" >> index.html
 
     unlocked=`cat "${ACHIEVEMENTSLOGFILE}" | grep Unlocked | wc -l`
 
     # Unlocked Achievements
     echo "<ul class='list-unstyled'>" >> index.html
-    cat "${ACHIEVEMENTSLOGFILE}" | grep -ve '^$' | grep -v 'Git Achievement Unlocked!' | grep -v '*' | sed -e 's/^ *//g'  -e 's/ *$//g' | awk '{ if (NR % 2 != 0) printf "<li><div class=\"panel panel-success\"><div class=\"panel-heading\">" $0 "</div>"; else printf "  <div class=\"panel-body\">" $0 "</div></li>\n" }' | link_to_git_docs | sort >> index.html
+    cat "${ACHIEVEMENTSLOGFILE}" | grep -ve '^$' | grep -v 'Git Achievement Unlocked!' | grep -v '*' | sed -e 's/^ *//g'  -e 's/ *$//g' | awk '{ if (NR % 2 != 0) printf "<li><div class=\"bs-callout bs-callout-info\"><h4>" $0 "</h4>"; else printf "  <p>" $0 "</p></div></li>\n" }' | link_to_git_docs | sort >> index.html
 
-    echo "</ul>" >> index.html
+    echo "</ul>
+</div>
+<div class=\"col-lg-4\">" >> index.html
 
     # Git Commands
     echo 'Git commands sorted by usage:' >> index.html
@@ -435,15 +439,11 @@ echo "
     echo "</pre>" >> index.html
 
     # Locked Achievements
-    echo "<script type=\"text/javascript\">
-function showLocked() {
-    document.getElementById('locked').style.display = 'block';
-    document.getElementById('showlocked').style.display = 'none';
-}
-</script>
-<a id=\"showlocked\" href=\"javascript:showLocked()\" >Show locked Achievements</a>
+    echo "<a id=\"showlocked\" href=\"javascript:toggleLocked()\" class=\"btn btn-primary\">Toggle locked Achievements</a>
 <div id=\"locked\">
-There are $total Achievements. Some achievements can be leveled up depending on the number of times it is used (Used 2 times = level 1, 4 = level 2, 8 = level 3, 16 = level 4, 32 = level 5, etc)
+
+<h5>There are $total Achievements.</h5><h6><small>Some achievements can be leveled up depending on the number of times it is used (Used 2 times = level 1, 4 = level 2, 8 = level 3, 16 = level 4, 32 = level 5, etc)</small></h6>
+
 <ul>" >> index.html
 
     cat index.html | sed -e 's/Apprentice //g' -e 's/Master //g'> temp.html
@@ -455,16 +455,22 @@ There are $total Achievements. Some achievements can be leveled up depending on 
             echo $line >> index.html
         fi
     done
-    echo '</ul></div>' >> index.html
+    echo "</ul></div>
+</div>
+</div>" >> index.html
     rm temp.html
     rm all.html
 
-    echo "</body>
+    echo "<script type=\"text/javascript\">
+function toggleLocked() {
+    $('#locked').toggle();
+}
+</script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src='https://code.jquery.com/jquery.js'></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src='http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js'></script>
-    </html>" >> index.html
+    </body></html>" >> index.html
 
     # Update the RSS feed
     echo '<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel>' > index.rss
