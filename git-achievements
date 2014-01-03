@@ -51,7 +51,7 @@ function git_achievements_command
 function log_action
 {
     local expansion=$(unalias_command "$1")
-    
+
     if [[ $expansion ]] ; then
         shift
         echo "$expansion $@" >> "${ACTIONLOGFILE}"
@@ -168,7 +168,7 @@ function check_for_achievements
     if [[ $expansion ]] ; then
       # not a real inventor
       unlock_achievement "Garage Inventor" "Used a custom alias for a Git command"
-      
+
       # get actual command, removing any additional parameters from the command
       command=$(echo "$expansion" | awk '{ print $1; }')
     fi
@@ -411,7 +411,7 @@ echo "
     echo "<div class='page-header'>
   <div class='media'>
     <a class='pull-left' href='#'>
-      <img class='media-object' src='http://www.gravatar.com/avatar/${mailhash}' alt='gravatar de diego'>
+      <img class='media-object img-circle img-thumb' src='http://www.gravatar.com/avatar/${mailhash}' alt='gravatar de diego'>
     </a>
     <div class='media-body'>
       <h4 class='media-heading'>${user}'s Git Achievements</h4>
@@ -433,17 +433,36 @@ echo "
 <div class=\"col-lg-4\">" >> index.html
 
     # Git Commands
-    echo 'Git commands sorted by usage:' >> index.html
-    echo "<pre style=\"text-align: left\">" >> index.html
-    cat  "${ACTIONLOGFILE}" | grep -v Date | grep -v 'git-dir' | awk '{ print $1 }' | sort | uniq -c | sort -nr >> index.html
-    echo "</pre>" >> index.html
+    echo '' >> index.html
+    echo "<div class=\"panel panel-default\" style=\"text-align: left\">
+     <div class=\"panel-heading\">
+    <h3 class=\"panel-title\">Git commands sorted by usage</h3>
+  </div>
+   <div class=\"panel-body\">" >> index.html
+    cat  "${ACTIONLOGFILE}" | grep -v Date | grep -v 'git-dir' | awk '{ print $1 }' | sort | uniq -c | sort -nr >> temp.html
+    cat temp.html | while read line ;
+    do
+            echo "<span class='label label-info commands'>$line</span><br>" >> index.html
+    done
+    echo "</div></div>" >> index.html
+    rm temp.html
+
+
+
 
     # Locked Achievements
-    echo "<a id=\"showlocked\" href=\"javascript:toggleLocked()\" class=\"btn btn-primary\">Toggle locked Achievements</a>
-<div id=\"locked\">
-
-<h5>There are $total Achievements.</h5><h6><small>Some achievements can be leveled up depending on the number of times it is used (Used 2 times = level 1, 4 = level 2, 8 = level 3, 16 = level 4, 32 = level 5, etc)</small></h6>
-
+    echo "<button class=\"btn btn-primary btn-lg\" data-toggle=\"modal\" data-target=\"#locked\">Show Locked Achievements</button>
+<div class=\"modal fade\" id=\"locked\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myLockedAchievements\" aria-hidden=\"true\">
+  <div class=\"modal-dialog\">
+    <div class=\"modal-content\">
+      <div class=\"modal-header\">
+        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
+        <h4 class=\"modal-title\" id=\"myLockedAchievements\">
+            Locked Achievements
+        </h4>
+      </div>
+      <div class=\"modal-body\">
+        <h4>There are $total Achievements.</h4><h5><small>Some achievements can be leveled up depending on the number of times it is used (Used 2 times = level 1, 4 = level 2, 8 = level 3, 16 = level 4, 32 = level 5, etc)</small></h5>
 <ul class='list-unstyled'>" >> index.html
 
     cat index.html | sed -e 's/Apprentice //g' -e 's/Master //g'> temp.html
@@ -455,18 +474,21 @@ echo "
             echo $line >> index.html
         fi
     done
-    echo "</ul></div>
+    echo "</ul>
+      </div>
+      <div class=\"modal-footer\">
+        <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </div>
 </div>" >> index.html
     rm temp.html
     rm all.html
 
-    echo "<script type=\"text/javascript\">
-function toggleLocked() {
-    \$('#locked').toggle();
-}
-</script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    echo "<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src='https://code.jquery.com/jquery.js'></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src='http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js'></script>
@@ -490,6 +512,7 @@ function toggleLocked() {
         echo "Global achievement.upload not set to true, updates left uncommited"
         return
     fi
+
 
     echo "Adding new achievements and publishing to origin."
     git add index.html index.rss

@@ -88,3 +88,15 @@ color: #2b542c;
 .bs-callout .bs-callout-link {
 font-weight: bold;
 }
+.commands{
+	line-height: 20px;
+}
+
+.img-thumb {
+	border: 1px solid #f5f5f5;
+	padding: 3px;
+}
+
+.media-body {
+	padding:20px;
+}
