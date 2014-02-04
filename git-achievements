@@ -82,6 +82,7 @@ function unlock_achievement()
     fi
     output_achievement "$@" >&2
     output_achievement "$@" >> "${ACHIEVEMENTSLOGFILE}"
+    echo "fichero:${ACHIEVEMENTSLOGFILE}"
 
     if [ "`git config --global achievement.upload`" = "true" ] ; then
         publish_achievements "$@"
@@ -526,7 +527,7 @@ echo "
 }
 
 ACTIONLOGFILE="$HOME/.git-achievements-action.log"
-ACHIEVEMENTSLOGFILE="$HOME/.git-achievements.log"
+ACHIEVEMENTSLOGFILE="$HOME/code/dotfiles/diegobarrioh/dotfiles/.git-achievements.log"
 
 if [ ! "$1" = "achievements" ] ; then
     git "$@"
