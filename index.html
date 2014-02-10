@@ -81,14 +81,14 @@
                 <div class="col-lg-4">
 <div class="panel panel-default" style="text-align: left">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Git commands sorted by usage</h3>
+                                <h3 class="panel-title">Git commands ordenados por uso</h3>
                             </div>
                             <div class="panel-body">
 <span class='label label-info commands'>403 status</span><br>
 <span class='label label-info commands'>135 log</span><br>
 <span class='label label-info commands'>114 commit</span><br>
 <span class='label label-info commands'>60 checkout</span><br>
-<span class='label label-info commands'>57 achievements</span><br>
+<span class='label label-info commands'>58 achievements</span><br>
 <span class='label label-info commands'>48 push</span><br>
 <span class='label label-info commands'>47 add</span><br>
 <span class='label label-info commands'>40 branch</span><br>
@@ -116,12 +116,21 @@
 <span class='label label-info commands'>1 init</span><br>
 </div>
                         </div>
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#locked">Show Locked Achievements</button>
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#locked">Mostrar Achievements Bloqueados</button>
 </div>
           </div>
-<div>
-There are 51 Achievements. Some achievements can be leveled up depending on the number of times it is used (Used 2 times = level 1, 4 = level 2, 8 = level 3, 16 = level 4, 32 = level 5, etc)
-<ul>
+<div class="modal fade" id="locked" tabindex="-1" role="dialog" aria-labelledby="myLockedAchievements" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myLockedAchievements">
+            Locked Achievements
+        </h4>
+      </div>
+      <div class="modal-body">
+        <h4>There are 51 Achievements.</h4><h5><small>Some achievements can be leveled up depending on the number of times it is used (Used 2 times = level 1, 4 = level 2, 8 = level 3, 16 = level 4, 32 = level 5, etc)</small></h5>
+        <ul class='list-unstyled'>
 <li><div class="title">Archivist</div><div class="info">Prepare each commit with its patch in one file per commit with <a href="http://www.kernel.org/pub/software/scm/git/docs/git-format-patch.html">git-format-patch</a></div></li>
 <li><div class="title">Beach Lion</div><div class="info">Restricted login shell for GIT-only SSH access with <a href="http://www.kernel.org/pub/software/scm/git/docs/git-shell.html">git-shell</a></div></li>
 <li><div class="title">Blacksmith</div><div class="info">Created a branch using <a href="http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html">git-checkout</a> -b.</div></li>
