@@ -429,7 +429,7 @@ function publish_achievements
                 <div class=\"row\">
                     <div class=\"col-lg-8\">" >> index.html
                         # Unlocked Achievements
-                        echo "<ul class='list-unstyled'>" >> index.html
+                        echo "<ul class='list-unstyled unlocked'>" >> index.html
                             cat "${ACHIEVEMENTSLOGFILE}" | grep -ve '^$' | grep -v 'Git Achievement Unlocked!' | grep -v '*' | sed -e 's/^ *//g'  -e 's/ *$//g' | awk '{ if (NR % 2 != 0) printf "<li><div class=\"title\">" $0 "</div>"; else printf "  <div class=\"info\">" $0 "</div></li>\n" }' | link_to_git_docs | sort >> index.html
                         echo "</ul>
                     </div>
@@ -464,7 +464,7 @@ function publish_achievements
                         </div>
                         <div class=\"modal-body\">
                             <h4>There are $total Achievements.</h4><h5><small>Some achievements can be leveled up depending on the number of times it is used (Used 2 times = level 1, 4 = level 2, 8 = level 3, 16 = level 4, 32 = level 5, etc)</small></h5>
-                            <ul class='list-unstyled'>" >> index.html
+                            <ul class='list-unstyled locked'>" >> index.html
 
                             cat index.html | sed -e 's/Apprentice //g' -e 's/Master //g'> temp.html
                             cat all.html | while read line ;

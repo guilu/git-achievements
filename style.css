@@ -109,13 +109,31 @@ li{
   font-size:10px;
 }
 
-li.title
+.locked > li {
+  background-color: #fdf7f7;
+  border-color: #eed3d7;
+}
+
+.unlocked > li {
+  background-color: #f4f8fa;
+  border-color: #bce8f1;
+}
+
+.locked > li > .title{
 {
   margin-top: 0;
   margin-bottom: 5px;
   font-size:14px;
 }
 
-li.info{
+.locked > li > .info{
+  padding:3px;
+}
 
+.unlocked > li > .title{
+
+}
+
+.unlocked > li > .info{
+  padding:3px;
 }
