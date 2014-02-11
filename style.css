@@ -54,7 +54,7 @@ ul {
   color: #8a6d3b;
 }
 .bs-callout-warning p{
-	color: #8a6d3b;
+    color: #8a6d3b;
 }
 
 .bs-callout-info {
@@ -73,8 +73,8 @@ color: #843534;
 }
 
 .instructions{
-	padding:10px;
-	font-size:10px;
+    padding:10px;
+    font-size:10px;
 }
 .bs-callout-warning .bs-callout-link {
 color: #66512c;
@@ -90,50 +90,32 @@ color: #2b542c;
 font-weight: bold;
 }
 .commands{
-	line-height: 20px;
+    line-height: 20px;
 }
 
 .img-thumb {
-	border: 1px solid #f5f5f5;
-	padding: 3px;
+    border: 1px solid #f5f5f5;
+    padding: 3px;
 }
 
 .media-body {
-	padding:20px;
+    padding:20px;
 }
 
-li{
-  margin: 5px 0;
-  padding: 5px;
-  border-left: 3px solid #eee;
-  font-size:10px;
-}
 
-.locked > li {
-  background-color: #fdf7f7;
-  border-color: #eed3d7;
-}
+li{  margin: 5px 0;  padding: 5px;  border-left: 3px solid #eee;  font-size:10px;}
+.unlocked > li {  background-color: #f4f8fa;  border-color: #bce8f1;}
+.unlocked > li .title{  margin-top: 0;  margin-bottom: 5px; font-size:16px; color: #34789a;}
+.unlocked > li .info{ margin: 0 0 10px; font-size:12px; font-weight: 300;}
+.unlocked > li .info a{color: #245269; font-weight: bold;}
+.unlocked > li .info code {  background-color: #fff;border-radius: 3px;}
 
-.unlocked > li {
-  background-color: #f4f8fa;
-  border-color: #bce8f1;
-}
+.locked > li {  background-color: #fdf7f7;  border-color: #eed3d7;}
+.locked > li .title{  margin-top: 0;  margin-bottom: 5px; font-size:16px;color: #b94a48;}
+.locked > li .info{  margin: 0 0 10px; font-size:12px; font-weight: 300;}
+.locked > li .info a{color: #843534; font-weight: bold;}
+.locked > li .info code {  background-color: #fff;border-radius: 3px;}
 
-.locked > li > .title{
-{
-  margin-top: 0;
-  margin-bottom: 5px;
-  font-size:14px;
-}
 
-.locked > li > .info{
-  padding:3px;
-}
 
-.unlocked > li > .title{
 
-}
-
-.unlocked > li > .info{
-  padding:3px;
-}
