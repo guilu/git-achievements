@@ -82,7 +82,6 @@ function unlock_achievement()
     fi
     output_achievement "$@" >&2
     output_achievement "$@" >> "${ACHIEVEMENTSLOGFILE}"
-    echo "fichero:${ACHIEVEMENTSLOGFILE}"
 
     if [ "`git config --global achievement.upload`" = "true" ] ; then
         publish_achievements "$@"
@@ -361,7 +360,7 @@ function check_for_achievements
 
 function link_to_git_docs
 {
-    sed -e 's_git \([a-z0-9-]*\)_<a class="bs-callout-link" href="http://www.kernel.org/pub/software/scm/git/docs/git-\1.html">git-\1</a>_g' | sed -e 's/\/git-hooks/\/githooks/g'
+    sed -e 's_git \([a-z0-9-]*\)_<a href="http://www.kernel.org/pub/software/scm/git/docs/git-\1.html">git-\1</a>_g' | sed -e 's/\/git-hooks/\/githooks/g'
 }
 
 function clean_logged_achievements() {
@@ -387,121 +386,119 @@ function publish_achievements
 
     user=`git config --global user.name`
 
-echo "
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>
-<title>${user}'s Git Achievements</title>
-<link rel=\"alternate\" type=\"application/rss+xml\" title=\"rss feed\" href=\"index.rss\"/>
-<!-- Latest compiled and minified CSS -->
-<link rel=\"stylesheet\" href=\"http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css\">
-<link rel=\"stylesheet\" href=\"style.css\">
-</head>
-<body class=\"container\">
-" > index.html
-    mailhash=`git config --global user.email | xargs echo -n | tr '[A-Z]' '[a-z]' | openssl md5 | sed -e 's/.* //'`
-    # STATS
-    cat git-achievements | grep 'unlock_achievement ' | grep -v ' sed ' | grep -v '\${' | sed -e 's/.*unlock_achievement //g' -e 's/^"//g' -e 's/"$//g' -e 's/\$power/X/g' -e 's/\$count/X/g' -e 's/\$hooks/X/g' | sort | awk -F"\" \"" '{ print "<li><div class=\"bs-callout bs-callout-danger\"><h4>" $1 "</h4><p>" $2 "</p></div></li>" }' | link_to_git_docs > all.html
-    total=`cat all.html | wc -l`
+    echo "
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>
+    <title>${user}'s Git Achievements</title>
+    <link rel=\"alternate\" type=\"application/rss+xml\" title=\"rss feed\" href=\"index.rss\"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel=\"stylesheet\" href=\"http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css\">
+    <link rel=\"stylesheet\" href=\"style.css\">
+    </head>
+    <body class=\"container\">
+    " > index.html
+        mailhash=`git config --global user.email | xargs echo -n | tr '[A-Z]' '[a-z]' | openssl md5 | sed -e 's/.* //'`
 
-    unlockedCount=`clean_logged_achievements | awk '{ if (NR % 2 != 0) print $0 }' | sed -e 's/Apprentice //g' -e 's/Master //g' -e 's/(.*//g' | sort | uniq | wc -l`
-    levels=`clean_logged_achievements | awk '{ if (NR % 2 != 0) print $0 }' | grep Level | sed -e 's/.* //g' -e 's/)//g' | awk '{ t=t+$0 } END { print t }'`
-    onelevels=`clean_logged_achievements | awk '{ if (NR % 2 != 0) print $0 }' | wc -l`
-    let points="${levels}"+"${onelevels}"
-    echo "<div class='page-header'>
-  <div class='media'>
-    <a class='pull-left' href='#'>
-      <img class='media-object img-circle img-thumb' src='http://www.gravatar.com/avatar/${mailhash}' alt='gravatar de diego'>
-    </a>
-    <div class='media-body'>
-      <h4 class='media-heading'>${user}'s Git Achievements</h4>
-      Unlocked ${unlockedCount}/$total <a href='http://github.com/icefox/git-achievements'>Git Achievements</a> for $points points
-    </div>
-  </div>
-</div>
-<div class=\"row\">
-<div class=\"col-lg-8\">" >> index.html
 
-    unlocked=`cat "${ACHIEVEMENTSLOGFILE}" | grep Unlocked | wc -l`
+        # STATS
+        cat git-achievements | grep 'unlock_achievement ' | grep -v ' sed ' | grep -v '\${' | sed -e 's/.*unlock_achievement //g' -e 's/^"//g' -e 's/"$//g' -e 's/\$power/X/g' -e 's/\$count/X/g' -e 's/\$hooks/X/g' | sort | awk -F"\" \"" '{ print "<li><div class=\"title\">" $1 "</div><div class=\"info\">" $2 "</div></li>" }' | link_to_git_docs > all.html
+        total=`cat all.html | wc -l`
 
-    # Unlocked Achievements
-    echo "<ul class='list-unstyled'>" >> index.html
-    cat "${ACHIEVEMENTSLOGFILE}" | grep -ve '^$' | grep -v 'Git Achievement Unlocked!' | grep -v '*' | sed -e 's/^ *//g'  -e 's/ *$//g' | awk '{ if (NR % 2 != 0) printf "<li><div class=\"bs-callout bs-callout-info\"><h4>" $0 "</h4>"; else printf "  <p>" $0 "</p></div></li>\n" }' | link_to_git_docs | sort >> index.html
-
-    echo "</ul>
-</div>
-<div class=\"col-lg-4\">" >> index.html
-
-    # Git Commands
-    echo '' >> index.html
-    echo "<div class=\"panel panel-default\" style=\"text-align: left\">
-     <div class=\"panel-heading\">
-    <h3 class=\"panel-title\">Git commands sorted by usage</h3>
-  </div>
-   <div class=\"panel-body\">" >> index.html
-    cat  "${ACTIONLOGFILE}" | grep -v Date | grep -v 'git-dir' | awk '{ print $1 }' | sort | uniq -c | sort -nr >> temp.html
-    cat temp.html | while read line ;
-    do
-            echo "<span class='label label-info commands'>$line</span><br>" >> index.html
-    done
-    echo "</div></div>" >> index.html
-    rm temp.html
+        unlockedCount=`clean_logged_achievements | awk '{ if (NR % 2 != 0) print $0 }' | sed -e 's/Apprentice //g' -e 's/Master //g' -e 's/(.*//g' | sort | uniq | wc -l`
+        levels=`clean_logged_achievements | awk '{ if (NR % 2 != 0) print $0 }' | grep Level | sed -e 's/.* //g' -e 's/)//g' | awk '{ t=t+$0 } END { print t }'`
+        onelevels=`clean_logged_achievements | awk '{ if (NR % 2 != 0) print $0 }' | wc -l`
+        let points="${levels}"+"${onelevels}"
 
 
 
+        unlocked=`cat "${ACHIEVEMENTSLOGFILE}" | grep Unlocked | wc -l`
 
-    # Locked Achievements
-    echo "<button class=\"btn btn-primary btn-lg\" data-toggle=\"modal\" data-target=\"#locked\">Show Locked Achievements</button>
-<div class=\"modal fade\" id=\"locked\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myLockedAchievements\" aria-hidden=\"true\">
-  <div class=\"modal-dialog\">
-    <div class=\"modal-content\">
-      <div class=\"modal-header\">
-        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
-        <h4 class=\"modal-title\" id=\"myLockedAchievements\">
-            Locked Achievements
-        </h4>
-      </div>
-      <div class=\"modal-body\">
-        <h4>There are $total Achievements.</h4><h5><small>Some achievements can be leveled up depending on the number of times it is used (Used 2 times = level 1, 4 = level 2, 8 = level 3, 16 = level 4, 32 = level 5, etc)</small></h5>
-<ul class='list-unstyled'>" >> index.html
+        echo "<div class='page-header'>
+                  <div class='media'>
+                    <a class='pull-left' href='#'>
+                      <img class='media-object img-circle img-thumb' src='http://www.gravatar.com/avatar/${mailhash}' alt='gravatar de diego'>
+                    </a>
+                    <div class='media-body'>
+                      <h4 class='media-heading'>${user}'s Git Achievements</h4>
+                      Unlocked ${unlockedCount}/$total <a href='http://github.com/icefox/git-achievements'>Git Achievements</a> for $points points
+                    </div>
+                  </div>
+                </div>
+                <div class=\"row\">
+                    <div class=\"col-lg-8\">" >> index.html
+                        # Unlocked Achievements
+                        echo "<ul class='list-unstyled'>" >> index.html
+                            cat "${ACHIEVEMENTSLOGFILE}" | grep -ve '^$' | grep -v 'Git Achievement Unlocked!' | grep -v '*' | sed -e 's/^ *//g'  -e 's/ *$//g' | awk '{ if (NR % 2 != 0) printf "<li><div class=\"title\">" $0 "</div>"; else printf "  <div class=\"info\">" $0 "</div></li>\n" }' | link_to_git_docs | sort >> index.html
+                        echo "</ul>
+                    </div>
+                    <div class=\"col-lg-4\">" >> index.html
 
-    cat index.html | sed -e 's/Apprentice //g' -e 's/Master //g'> temp.html
-    cat all.html | while read line ;
-    do
-        stripedline=`echo $line | sed -e 's/<\/div>.*//g' -e 's/(.*//g' -e 's/Apprentice //g'`
-        grep "$stripedline" temp.html > /dev/null
-        if [ ! $? -eq 0 ] ; then
-            echo $line >> index.html
-        fi
-    done
-    echo "</ul>
-      </div>
-      <div class=\"modal-footer\">
-        <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
+                        echo "<div class=\"panel panel-default\" style=\"text-align: left\">
+                                <div class=\"panel-heading\">
+                                    <h3 class=\"panel-title\">Comandos Git ordenados por uso</h3>
+                                </div>
+                                <div class=\"panel-body\">" >> index.html
+                                    cat  "${ACTIONLOGFILE}" | grep -v Date | grep -v 'git-dir' | awk '{ print $1 }' | sort | uniq -c | sort -nr >> temp.html
+                                    cat temp.html | while read line ;
+                                    do
+                                    echo "<span class='label label-info commands'>$line</span><br>" >> index.html
+                                    done
+                        echo "</div>
+                            </div>" >> index.html
+                        echo "<button class=\"btn btn-primary btn-lg\" data-toggle=\"modal\" data-target=\"#locked\">Mostrar Achievements Bloqueados</button>" >> index.html
+                        rm temp.html
+              echo "</div>
+              </div>" >> index.html
 
-</div>
-</div>" >> index.html
-    rm temp.html
-    rm all.html
+        # Locked Achievements
+      echo "<div class=\"modal fade\" id=\"locked\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myLockedAchievements\" aria-hidden=\"true\">
+                <div class=\"modal-dialog\">
+                    <div class=\"modal-content\">
+                        <div class=\"modal-header\">
+                            <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
+                            <h4 class=\"modal-title\" id=\"myLockedAchievements\">
+                                Achievements Bloqueados
+                            </h4>
+                        </div>
+                        <div class=\"modal-body\">
+                            <h4>There are $total Achievements.</h4><h5><small>Some achievements can be leveled up depending on the number of times it is used (Used 2 times = level 1, 4 = level 2, 8 = level 3, 16 = level 4, 32 = level 5, etc)</small></h5>
+                            <ul class='list-unstyled'>" >> index.html
 
-    echo "<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src='https://code.jquery.com/jquery.js'></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src='http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js'></script>
-    </body></html>" >> index.html
+                            cat index.html | sed -e 's/Apprentice //g' -e 's/Master //g'> temp.html
+                            cat all.html | while read line ;
+                            do
+                                stripedline=`echo $line | sed -e 's/<\/div>.*//g' -e 's/(.*//g' -e 's/Apprentice //g'`
+                                grep "$stripedline" temp.html > /dev/null
+                                if [ ! $? -eq 0 ] ; then
+                                    echo $line >> index.html
+                                fi
+                            done
+                      echo '</ul>
+                        </div>' >> index.html
+                        rm temp.html
+                        rm all.html
+                  echo "<div class=\"modal-footer\">
+                            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cerrar</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->" >> index.html
 
-    # Update the RSS feed
-    echo '<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel>' > index.rss
-    echo "<title>${user}'s Git Achievements</title>" >> index.rss
-    echo "<description></description>" >> index.rss
-    echo "<link></link>" >> index.rss
-    cat "${ACHIEVEMENTSLOGFILE}"  | grep -ve '^$' | grep -v 'Git Achievement Unlocked!' | grep -v '*' | sed -e 's/^ *//g'  -e 's/ *$//g' | awk '{ if (NR % 2 != 0) printf "<item><title>" $0 "</title>"; else printf "<description>" $0 "</description></item>\n" }' | tail -n 20 | sed '1!G;h;$!d' >> index.rss
-    echo '</channel></rss>' >> index.rss
+         echo "<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src='https://code.jquery.com/jquery.js'></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src='http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js'></script>
+        </body></html>" >> index.html
+
+        # Update the RSS feed
+        echo '<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel>' > index.rss
+        echo "<title>${user}'s Git Achievements</title>" >> index.rss
+        echo "<description></description>" >> index.rss
+        echo "<link></link>" >> index.rss
+        cat "${ACHIEVEMENTSLOGFILE}"  | grep -ve '^$' | grep -v 'Git Achievement Unlocked!' | grep -v '*' | sed -e 's/^ *//g'  -e 's/ *$//g' | awk '{ if (NR % 2 != 0) printf "<item><title>" $0 "</title>"; else printf "<description>" $0 "</description></item>\n" }' | tail -n 20 | sed '1!G;h;$!d' >> index.rss
+        echo '</channel></rss>' >> index.rss
 
     abortcount=`git status | grep 'Changes to be committed' | wc -l`
     if [ ! $abortcount -eq 0 ] ; then
@@ -513,7 +510,6 @@ echo "
         echo "Global achievement.upload not set to true, updates left uncommited"
         return
     fi
-
 
     echo "Adding new achievements and publishing to origin."
     git add index.html index.rss

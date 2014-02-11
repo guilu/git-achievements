@@ -101,3 +101,21 @@ font-weight: bold;
 .media-body {
 	padding:20px;
 }
+
+li{
+  margin: 5px 0;
+  padding: 5px;
+  border-left: 3px solid #eee;
+  font-size:10px;
+}
+
+li.title
+{
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size:14px;
+}
+
+li.info{
+
+}
