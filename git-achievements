@@ -522,8 +522,9 @@ function publish_achievements
     git push origin gh-pages
 }
 
-ACTIONLOGFILE="$HOME/.git-achievements-action.log"
-ACHIEVEMENTSLOGFILE="$HOME/code/dotfiles/diegobarrioh/dotfiles/.git-achievements.log"
+#esto se tiene que haber sourceado
+#ACTIONLOGFILE="$HOME/.git-achievements-action.log"
+#ACHIEVEMENTSLOGFILE="$HOME/code/dotfiles/diegobarrioh/dotfiles/.git-achievements.log"
 
 if [ ! "$1" = "achievements" ] ; then
     git "$@"
