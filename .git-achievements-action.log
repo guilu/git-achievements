@@ -12,3 +12,91 @@ difftool
 Date: martes, 17 de marzo de 2015, 08:33:28 CET
 status -sb 
 Date: martes, 17 de marzo de 2015, 08:35:32 CET
+commit -am limpiado los path del ejecutable. Empieza el log desde hoy
+Date: martes, 17 de marzo de 2015, 08:36:03 CET
+status -sb 
+Date: martes, 17 de marzo de 2015, 08:36:08 CET
+push
+Date: martes, 17 de marzo de 2015, 08:36:52 CET
+status -sb 
+Date: martes, 17 de marzo de 2015, 08:37:08 CET
+achievements -l
+Date: martes, 17 de marzo de 2015, 08:40:48 CET
+achievements -p
+Date: martes, 17 de marzo de 2015, 08:40:57 CET
+achievements
+Date: martes, 17 de marzo de 2015, 08:42:18 CET
+achievements -l
+Date: martes, 17 de marzo de 2015, 08:43:39 CET
+achievements -p
+Date: martes, 17 de marzo de 2015, 08:43:45 CET
+status -sb 
+Date: martes, 17 de marzo de 2015, 08:44:36 CET
+status -sb 
+Date: martes, 17 de marzo de 2015, 10:03:21 CET
+status -sb 
+Date: martes, 17 de marzo de 2015, 11:22:59 CET
+status -sb 
+Date: martes, 17 de marzo de 2015, 11:35:42 CET
+status -sb 
+Date: martes, 17 de marzo de 2015, 12:03:07 CET
+branch 
+Date: martes, 17 de marzo de 2015, 12:03:39 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 17 de marzo de 2015, 12:03:47 CET
+status -sb 
+Date: martes, 17 de marzo de 2015, 14:06:15 CET
+branch 
+Date: martes, 17 de marzo de 2015, 14:45:01 CET
+status -sb 
+Date: martes, 17 de marzo de 2015, 14:46:50 CET
+status -sb 
+Date: martes, 17 de marzo de 2015, 14:47:08 CET
+difftool
+Date: martes, 17 de marzo de 2015, 14:47:14 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 17 de marzo de 2015, 14:49:54 CET
+log --graph --pretty=format:' %C(black)%h%C(reset) -%C(yellow)%d%C(white) %s %C(black)(%cr) %C(black) %an%Creset' 
+Date: martes, 17 de marzo de 2015, 14:50:07 CET
+log --graph --pretty=format:'%C(black)[%C(green)%h%C(black)]%C(reset) %C(black)-%C(yellow)%d %C(white)%s %C(black)- %C(green)%cr %C(black bold)* %an *%C(reset)' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:50:19 CET
+log --graph --pretty=format:'%C(black)[%C(green)%h%C(black)]%C(reset) %C(black)-%C(yellow)%d %C(white)%s %C(black)- %C(green)%cr %C(black bold)* %an *%C(reset)' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:50:57 CET
+log --graph --pretty=format:'%C(black)[%h]%C(reset) %C(black)-%C(yellow)%d %C(white)%s %C(black)- %C(green)%cr %C(black bold)* %an *%C(reset)' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:51:25 CET
+log --graph --pretty=format:'%C(black)[%h]%C(reset) %C(black)-%C(yellow)%d %s %C(black)- %C(green)%cr %C(black bold)* %an *%C(reset)' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:51:51 CET
+log --graph --pretty=format:'%C(black)[%h]%C(reset) %C(black)-%d %s %C(black)- %C(green)%cr %C(black bold)* %an *%C(reset)' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:52:03 CET
+log --graph --pretty=format:'%C(black)[%h]%C(reset) %C(black)-%d %s %C(black)- %C(green)%cr %C(green bold)* %an *%C(reset)' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:52:38 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 17 de marzo de 2015, 14:52:40 CET
+log --graph --pretty=format:'%C(black)[%h]%C(reset) %C(black)-%d %s %C(black)- %C(green)%cr %C(green bold)%C(black)*%C(green) %an *%C(reset)' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:53:07 CET
+log --graph --pretty=format:'%C(black)[%h]%C(reset) %C(black)-%d %s %C(black)- %C(green)%cr %C(green bold)%C(black)*%C(green) %an %C(reset)*' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:53:17 CET
+log --graph --pretty=format:'%C(black)[%h]%C(reset) %C(black)-%d %s %C(black)- %C(green)%cr %C(green bold)%C(black)*%C(green) %an %C(black)*%C(reset)' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:53:36 CET
+log --graph --pretty=format:'%C(black)[%h]%C(reset) %C(black)-%d %s %C(black)- %C(green)%cr %C(green bold)%C(black)*%C(green bold) %an %C(black)*%C(reset)' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:53:45 CET
+log --graph --pretty=format:'%C(black)[%h]%C(reset) %C(black)-%d %s %C(black)- %C(green)%cr %C(green bold)%C(black)*%C(blue bold) %an %C(black)*%C(reset)' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:53:51 CET
+log --graph --pretty=format:'%C(black)[%h]%C(reset) %C(black)-%d %s %C(black)- %C(green)%cr %C(green bold)%C(black)*%C(cyan bold) %an %C(black)*%C(reset)' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:54:03 CET
+log --graph --pretty=format:'%C(black)[%h]%C(reset) %C(black)-%d %s %C(black)- %C(green)%cr %C(green bold)%C(black)*%C(cyan bold) %an %C(black)*%C(reset)' --abbrev-commit --date=relative 
+Date: martes, 17 de marzo de 2015, 14:54:13 CET
+log --graph --pretty=format:' %C(black)%h%C(reset) -%C(yellow)%d%C(white) %s %C(black)(%cr) %C(black) %an%Creset' 
+Date: martes, 17 de marzo de 2015, 14:54:36 CET
+log --graph --pretty=format:' %C(black)%h%C(reset) -%C(yellow)%d%C(white) %s %C(black)(%cr) %C(black) %an%Creset' 
+Date: martes, 17 de marzo de 2015, 14:54:42 CET
+log --graph --pretty=format:' %C(black)%h%C(reset) -%C(yellow)%d%C(white) %s %C(black)(%cr) %C(black) %an%Creset' 
+Date: martes, 17 de marzo de 2015, 14:55:19 CET
+log --graph --pretty=format:' %C(black)%h%C(reset) -%C(gray)%d%C(white) %s %C(black)(%cr) %C(black) %an%Creset' 
+Date: martes, 17 de marzo de 2015, 14:55:25 CET
+log --graph --pretty=format:' %C(black)%h%C(reset) -%C(yellow)%d%C(white) %s %C(black)(%cr) %C(black) %an%Creset' 
+Date: martes, 17 de marzo de 2015, 14:55:46 CET
+log --graph --pretty=format:' %C(black)%h%C(reset) -%C(yellow)%d%C(white) %s %C(black)(%cr) %C(black) %an%Creset' 
+Date: martes, 17 de marzo de 2015, 14:55:49 CET
+status -sb 
+Date: martes, 17 de marzo de 2015, 14:56:08 CET
