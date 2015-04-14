@@ -100,3 +100,387 @@ log --graph --pretty=format:' %C(black)%h%C(reset) -%C(yellow)%d%C(white) %s %C(
 Date: martes, 17 de marzo de 2015, 14:55:49 CET
 status -sb 
 Date: martes, 17 de marzo de 2015, 14:56:08 CET
+commit -am modifiec action log
+Date: martes, 17 de marzo de 2015, 14:56:16 CET
+push
+Date: martes, 17 de marzo de 2015, 14:58:57 CET
+status -sb 
+Date: martes, 17 de marzo de 2015, 20:46:51 CET
+commit -am todas las zonas y quiero comprar,alquilar,etc
+Date: martes, 17 de marzo de 2015, 20:50:53 CET
+push origin master
+Date: martes, 17 de marzo de 2015, 20:51:05 CET
+tag v2.3.2
+Date: martes, 17 de marzo de 2015, 20:51:13 CET
+push --tags
+Date: martes, 17 de marzo de 2015, 20:51:21 CET
+status -sb 
+Date: miércoles, 18 de marzo de 2015, 08:14:05 CET
+status -sb 
+Date: miércoles, 18 de marzo de 2015, 08:15:20 CET
+status -sb 
+Date: miércoles, 18 de marzo de 2015, 08:42:42 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 18 de marzo de 2015, 08:42:46 CET
+status -sb 
+Date: miércoles, 18 de marzo de 2015, 08:46:10 CET
+status -sb 
+Date: jueves, 19 de marzo de 2015, 13:44:10 CET
+status -sb 
+Date: jueves, 19 de marzo de 2015, 13:47:43 CET
+add .
+Date: jueves, 19 de marzo de 2015, 13:47:51 CET
+remote -v
+Date: jueves, 19 de marzo de 2015, 13:48:31 CET
+commit -am primer commit del directorio
+Date: jueves, 19 de marzo de 2015, 13:51:25 CET
+fetch origin master 
+Date: jueves, 19 de marzo de 2015, 14:09:10 CET
+pull origin master 
+Date: jueves, 19 de marzo de 2015, 14:09:18 CET
+achievements -l
+Date: jueves, 19 de marzo de 2015, 14:09:29 CET
+achievements -p
+Date: jueves, 19 de marzo de 2015, 14:10:40 CET
+status -sb 
+Date: viernes, 20 de marzo de 2015, 08:23:23 CET
+achievements -p
+Date: viernes, 20 de marzo de 2015, 09:36:57 CET
+status -sb 
+Date: sábado, 21 de marzo de 2015, 11:46:01 CET
+status -sb 
+Date: sábado, 21 de marzo de 2015, 11:46:12 CET
+fetch origin master 
+Date: sábado, 21 de marzo de 2015, 11:46:22 CET
+status -sb 
+Date: sábado, 21 de marzo de 2015, 12:51:48 CET
+diff
+Date: sábado, 21 de marzo de 2015, 12:52:01 CET
+commit -am added: ahora ejecuta setdestacados despues de la carga
+Date: sábado, 21 de marzo de 2015, 12:52:17 CET
+push origin master 
+Date: sábado, 21 de marzo de 2015, 12:52:21 CET
+difftool
+Date: sábado, 21 de marzo de 2015, 20:18:59 CET
+status -sb 
+Date: lunes, 23 de marzo de 2015, 09:25:34 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 23 de marzo de 2015, 09:25:39 CET
+status -sb 
+Date: lunes, 23 de marzo de 2015, 19:40:04 CET
+commit -am minor changes in css
+Date: lunes, 23 de marzo de 2015, 19:40:25 CET
+push origin master 
+Date: lunes, 23 de marzo de 2015, 19:40:35 CET
+branch 
+Date: lunes, 23 de marzo de 2015, 19:40:37 CET
+status -sb 
+Date: martes, 24 de marzo de 2015, 14:20:37 CET
+commit -am sobran los parametros de test:unit
+Date: martes, 24 de marzo de 2015, 14:21:19 CET
+status -sb 
+Date: martes, 24 de marzo de 2015, 14:42:28 CET
+add .
+Date: martes, 24 de marzo de 2015, 14:42:37 CET
+status -sb 
+Date: martes, 24 de marzo de 2015, 14:42:39 CET
+commit -am crap4j en phpunit
+Date: martes, 24 de marzo de 2015, 14:42:48 CET
+status -sb 
+Date: martes, 24 de marzo de 2015, 14:55:45 CET
+commit -am dejo el phing como estaba e phpunit
+Date: martes, 24 de marzo de 2015, 14:55:53 CET
+commit -am probando passthru
+Date: martes, 24 de marzo de 2015, 15:16:51 CET
+status -sb 
+Date: miércoles, 25 de marzo de 2015, 08:01:02 CET
+commit -am probando composer update
+Date: miércoles, 25 de marzo de 2015, 08:11:59 CET
+status -sb 
+Date: miércoles, 25 de marzo de 2015, 08:30:38 CET
+status -sb 
+Date: miércoles, 25 de marzo de 2015, 08:44:46 CET
+commit -am new files from composer update and passtru en phpmetrics
+Date: miércoles, 25 de marzo de 2015, 08:45:14 CET
+status -sb 
+Date: miércoles, 25 de marzo de 2015, 08:51:54 CET
+status -sb 
+Date: miércoles, 25 de marzo de 2015, 09:58:12 CET
+status -sb 
+Date: miércoles, 25 de marzo de 2015, 10:00:39 CET
+status -sb 
+Date: miércoles, 25 de marzo de 2015, 11:11:42 CET
+commit -am code style fixes and. Fixed: Busquedas por descripcion
+Date: miércoles, 25 de marzo de 2015, 11:12:08 CET
+push origin master 
+Date: miércoles, 25 de marzo de 2015, 11:12:18 CET
+status -sb 
+Date: miércoles, 25 de marzo de 2015, 17:59:48 CET
+commit -am refactor de command y propiedadService para eliminar métodos duplicados
+Date: miércoles, 25 de marzo de 2015, 18:00:05 CET
+push origin master 
+Date: miércoles, 25 de marzo de 2015, 18:00:11 CET
+status -sb 
+Date: jueves, 26 de marzo de 2015, 10:17:06 CET
+difftool
+Date: jueves, 26 de marzo de 2015, 10:17:16 CET
+commit -am fixed destacados por api y pmds fixes
+Date: jueves, 26 de marzo de 2015, 10:18:18 CET
+push origin master 
+Date: jueves, 26 de marzo de 2015, 10:18:24 CET
+status -sb 
+Date: lunes, 30 de marzo de 2015, 08:12:47 CEST
+status -sb 
+Date: lunes, 30 de marzo de 2015, 08:14:39 CEST
+diff
+Date: lunes, 30 de marzo de 2015, 08:14:49 CEST
+status -sb 
+Date: lunes, 30 de marzo de 2015, 08:14:50 CEST
+diff
+Date: lunes, 30 de marzo de 2015, 08:15:03 CEST
+commit -am removed example.zsh
+Date: lunes, 30 de marzo de 2015, 08:15:36 CEST
+status -sb 
+Date: lunes, 30 de marzo de 2015, 08:15:41 CEST
+stash
+Date: lunes, 30 de marzo de 2015, 08:15:49 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 30 de marzo de 2015, 08:16:00 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 30 de marzo de 2015, 08:16:12 CEST
+checkout e55c715
+Date: lunes, 30 de marzo de 2015, 08:16:30 CEST
+status -sb 
+Date: lunes, 30 de marzo de 2015, 08:16:32 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 30 de marzo de 2015, 08:16:34 CEST
+checkout master
+Date: lunes, 30 de marzo de 2015, 08:16:40 CEST
+difftool
+Date: lunes, 30 de marzo de 2015, 08:18:37 CEST
+remote -v
+Date: jueves,  2 de abril de 2015, 09:40:54 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  2 de abril de 2015, 09:41:48 CEST
+status -sb 
+Date: jueves,  2 de abril de 2015, 09:41:54 CEST
+status -sb 
+Date: jueves,  2 de abril de 2015, 14:59:14 CEST
+commit -am persiste el nuevoUmbralSla
+Date: jueves,  2 de abril de 2015, 14:59:52 CEST
+status -sb 
+Date: lunes,  6 de abril de 2015, 12:02:25 CEST
+remote -v
+Date: lunes,  6 de abril de 2015, 12:02:31 CEST
+status -sb 
+Date: lunes,  6 de abril de 2015, 12:03:09 CEST
+status -sb 
+Date: lunes,  6 de abril de 2015, 12:03:59 CEST
+status -sb 
+Date: lunes,  6 de abril de 2015, 12:06:23 CEST
+remote -v
+Date: lunes,  6 de abril de 2015, 12:40:01 CEST
+status -sb 
+Date: lunes,  6 de abril de 2015, 12:40:38 CEST
+checkout 
+Date: lunes,  6 de abril de 2015, 12:40:42 CEST
+checkout develop
+Date: lunes,  6 de abril de 2015, 12:40:47 CEST
+status -sb 
+Date: lunes,  6 de abril de 2015, 12:40:53 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  6 de abril de 2015, 12:40:57 CEST
+status -sb 
+Date: lunes,  6 de abril de 2015, 12:41:49 CEST
+status -sb 
+Date: lunes,  6 de abril de 2015, 12:42:06 CEST
+reset HEAD~1 
+Date: lunes,  6 de abril de 2015, 12:42:09 CEST
+checkout develop
+Date: lunes,  6 de abril de 2015, 12:42:23 CEST
+reset
+Date: lunes,  6 de abril de 2015, 12:42:27 CEST
+stash
+Date: lunes,  6 de abril de 2015, 12:42:38 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  6 de abril de 2015, 12:43:03 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  6 de abril de 2015, 12:43:14 CEST
+checkout 367b367
+Date: lunes,  6 de abril de 2015, 12:43:16 CEST
+reset HEAD~1 
+Date: lunes,  6 de abril de 2015, 12:43:24 CEST
+reset HEAD~1 
+Date: lunes,  6 de abril de 2015, 12:43:28 CEST
+reset HEAD~1 
+Date: lunes,  6 de abril de 2015, 12:43:33 CEST
+reset HEAD~1 
+Date: lunes,  6 de abril de 2015, 12:43:37 CEST
+merge master
+Date: lunes,  6 de abril de 2015, 12:43:56 CEST
+checkout develop
+Date: lunes,  6 de abril de 2015, 12:45:14 CEST
+checkout master
+Date: lunes,  6 de abril de 2015, 12:45:22 CEST
+status -sb 
+Date: lunes,  6 de abril de 2015, 12:45:23 CEST
+checkout develop
+Date: lunes,  6 de abril de 2015, 12:49:45 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  6 de abril de 2015, 12:49:53 CEST
+checkout master
+Date: lunes,  6 de abril de 2015, 12:49:55 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  6 de abril de 2015, 12:50:02 CEST
+checkout develop
+Date: lunes,  6 de abril de 2015, 12:50:13 CEST
+status -sb 
+Date: lunes,  6 de abril de 2015, 12:53:43 CEST
+add src/coincidea/UserBundle/DependencyInjection/coincideaUserExtension.php
+Date: lunes,  6 de abril de 2015, 12:54:10 CEST
+status -sb 
+Date: lunes,  6 de abril de 2015, 12:54:11 CEST
+commit -am eliminado los ficheros psd, movidos a creative cloud
+Date: lunes,  6 de abril de 2015, 12:55:08 CEST
+push origin develop 
+Date: lunes,  6 de abril de 2015, 12:55:16 CEST
+achievements -p
+Date: lunes,  6 de abril de 2015, 12:59:15 CEST
+status -sb 
+Date: lunes,  6 de abril de 2015, 16:34:40 CEST
+status -sb 
+Date: miércoles,  8 de abril de 2015, 15:26:24 CEST
+commit -am sla6 y gestion de umbrales
+Date: miércoles,  8 de abril de 2015, 15:26:53 CEST
+status -sb 
+Date: miércoles,  8 de abril de 2015, 19:01:56 CEST
+diff
+Date: miércoles,  8 de abril de 2015, 19:02:11 CEST
+status -sb 
+Date: miércoles,  8 de abril de 2015, 19:02:32 CEST
+fetch origin master
+Date: miércoles,  8 de abril de 2015, 19:02:47 CEST
+status -sb 
+Date: miércoles,  8 de abril de 2015, 19:02:49 CEST
+difftool
+Date: miércoles,  8 de abril de 2015, 19:02:55 CEST
+commit -am directorio para phpmetrics en build.xml
+Date: miércoles,  8 de abril de 2015, 19:03:21 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles,  8 de abril de 2015, 19:03:25 CEST
+status -sb 
+Date: miércoles,  8 de abril de 2015, 19:03:27 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles,  8 de abril de 2015, 19:04:28 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles,  8 de abril de 2015, 19:04:53 CEST
+push origin master 
+Date: miércoles,  8 de abril de 2015, 19:05:11 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles,  8 de abril de 2015, 19:05:48 CEST
+status -sb 
+Date: jueves,  9 de abril de 2015, 08:16:52 CEST
+remote -v
+Date: jueves,  9 de abril de 2015, 08:17:10 CEST
+status -sb 
+Date: jueves,  9 de abril de 2015, 08:21:07 CEST
+status -sb 
+Date: jueves,  9 de abril de 2015, 08:26:26 CEST
+status -sb 
+Date: jueves,  9 de abril de 2015, 08:27:00 CEST
+diff
+Date: jueves,  9 de abril de 2015, 08:27:32 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  9 de abril de 2015, 08:27:54 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  9 de abril de 2015, 08:28:04 CEST
+log --graph --pretty=format:' %C(black)%h%C(reset) -%C(yellow)%d%C(white) %s %C(black)(%cr) %C(black) %an%Creset' 
+Date: jueves,  9 de abril de 2015, 08:28:11 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  9 de abril de 2015, 08:28:30 CEST
+status -sb 
+Date: jueves,  9 de abril de 2015, 08:33:21 CEST
+push origin develop 
+Date: jueves,  9 de abril de 2015, 08:33:57 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  9 de abril de 2015, 08:38:49 CEST
+fetch origin develop
+Date: jueves,  9 de abril de 2015, 08:38:58 CEST
+remote -v
+Date: jueves,  9 de abril de 2015, 08:39:03 CEST
+status -sb 
+Date: jueves,  9 de abril de 2015, 08:40:50 CEST
+commit -am sla6 y gestión de umbrales
+Date: jueves,  9 de abril de 2015, 08:41:17 CEST
+remote -v
+Date: jueves,  9 de abril de 2015, 08:41:22 CEST
+push origin develop
+Date: jueves,  9 de abril de 2015, 08:41:54 CEST
+status -sb 
+Date: jueves,  9 de abril de 2015, 08:44:38 CEST
+status -sb 
+Date: jueves,  9 de abril de 2015, 09:18:14 CEST
+status -sb 
+Date: jueves,  9 de abril de 2015, 09:18:34 CEST
+diff
+Date: jueves,  9 de abril de 2015, 09:21:04 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  9 de abril de 2015, 09:23:00 CEST
+status -sb 
+Date: jueves,  9 de abril de 2015, 09:40:38 CEST
+commit -am typo fixes en build.xml, excluded files from coverage and composer install en vez de update
+Date: jueves,  9 de abril de 2015, 09:41:18 CEST
+push origin master
+Date: jueves,  9 de abril de 2015, 09:41:28 CEST
+checkout develop
+Date: jueves,  9 de abril de 2015, 09:42:37 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  9 de abril de 2015, 09:42:42 CEST
+merge master
+Date: jueves,  9 de abril de 2015, 09:42:46 CEST
+push origin develop
+Date: jueves,  9 de abril de 2015, 09:43:23 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  9 de abril de 2015, 09:43:39 CEST
+checkout master
+Date: jueves,  9 de abril de 2015, 09:46:18 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 10 de abril de 2015, 08:54:16 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 10 de abril de 2015, 08:54:27 CEST
+checkout master
+Date: viernes, 10 de abril de 2015, 08:54:56 CEST
+checkout develop
+Date: viernes, 10 de abril de 2015, 08:55:07 CEST
+merge master
+Date: viernes, 10 de abril de 2015, 08:55:10 CEST
+remote -v
+Date: viernes, 10 de abril de 2015, 08:55:33 CEST
+push origin develop --tags
+Date: viernes, 10 de abril de 2015, 08:55:44 CEST
+checkout develop
+Date: viernes, 10 de abril de 2015, 09:05:48 CEST
+status -sb 
+Date: viernes, 10 de abril de 2015, 14:56:01 CEST
+commit -am clean console.log, IND 1 para sla 6
+Date: viernes, 10 de abril de 2015, 14:56:23 CEST
+push origin develop
+Date: viernes, 10 de abril de 2015, 14:56:59 CEST
+status -sb 
+Date: viernes, 10 de abril de 2015, 15:04:11 CEST
+commit -am deleted unused StatsJira
+Date: viernes, 10 de abril de 2015, 15:04:39 CEST
+push origin develop
+Date: viernes, 10 de abril de 2015, 15:04:56 CEST
+status -sb 
+Date: lunes, 13 de abril de 2015, 11:17:13 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 08:05:08 CEST
+achievements
+Date: martes, 14 de abril de 2015, 08:05:57 CEST
+achievements -l
+Date: martes, 14 de abril de 2015, 08:06:01 CEST
+achievements -p
+Date: martes, 14 de abril de 2015, 08:06:09 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 08:06:13 CEST
