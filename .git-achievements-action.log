@@ -484,3 +484,2199 @@ achievements -p
 Date: martes, 14 de abril de 2015, 08:06:09 CEST
 status -sb 
 Date: martes, 14 de abril de 2015, 08:06:13 CEST
+commit -am nuevo actions log
+Date: martes, 14 de abril de 2015, 08:06:28 CEST
+push origin gh-pages
+Date: martes, 14 de abril de 2015, 08:06:44 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 08:09:18 CEST
+achievements -p
+Date: martes, 14 de abril de 2015, 08:09:40 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 08:09:44 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 14 de abril de 2015, 08:10:05 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 08:17:15 CEST
+difftool
+Date: martes, 14 de abril de 2015, 08:17:22 CEST
+difftool
+Date: martes, 14 de abril de 2015, 08:19:50 CEST
+commit -am minor changes in poms
+Date: martes, 14 de abril de 2015, 08:20:09 CEST
+push origin develop
+Date: martes, 14 de abril de 2015, 08:20:22 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 09:00:26 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 09:04:14 CEST
+commit -am refactor to fix 4 major issues
+Date: martes, 14 de abril de 2015, 09:04:24 CEST
+push origin develop
+Date: martes, 14 de abril de 2015, 09:04:33 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 11:39:42 CEST
+commit -am standarized jacoco-it.exec and code style fixes
+Date: martes, 14 de abril de 2015, 11:39:56 CEST
+push origin develop
+Date: martes, 14 de abril de 2015, 11:40:05 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 11:50:47 CEST
+commit -am fixing minor version issues in pom
+Date: martes, 14 de abril de 2015, 11:51:34 CEST
+push origin develop
+Date: martes, 14 de abril de 2015, 11:51:41 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 11:53:53 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 14 de abril de 2015, 11:54:03 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 11:54:13 CEST
+diff
+Date: martes, 14 de abril de 2015, 11:54:23 CEST
+commit -am parametrized sl4j version
+Date: martes, 14 de abril de 2015, 11:54:32 CEST
+pull origin develop
+Date: martes, 14 de abril de 2015, 11:54:43 CEST
+push origin develop
+Date: martes, 14 de abril de 2015, 11:54:51 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 11:59:08 CEST
+commit -am removed duplicate dependency
+Date: martes, 14 de abril de 2015, 11:59:16 CEST
+push origin develop
+Date: martes, 14 de abril de 2015, 11:59:23 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 12:08:59 CEST
+commit -am removed eclipse m2e plugin
+Date: martes, 14 de abril de 2015, 12:09:06 CEST
+push origin develop
+Date: martes, 14 de abril de 2015, 12:09:13 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 12:12:11 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 12:15:21 CEST
+add .
+Date: martes, 14 de abril de 2015, 12:15:26 CEST
+commit -am trying to remove message -No information about coverage per test-
+Date: martes, 14 de abril de 2015, 12:15:53 CEST
+push origin develop
+Date: martes, 14 de abril de 2015, 12:16:01 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 13:08:37 CEST
+commit -am trying to make maven-release work
+Date: martes, 14 de abril de 2015, 13:10:31 CEST
+push origin develop
+Date: martes, 14 de abril de 2015, 13:10:38 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 13:11:36 CEST
+branch 
+Date: martes, 14 de abril de 2015, 13:23:26 CEST
+fetch origin develop
+Date: martes, 14 de abril de 2015, 13:23:37 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 14 de abril de 2015, 13:23:41 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 14 de abril de 2015, 13:23:47 CEST
+checkout master
+Date: martes, 14 de abril de 2015, 13:23:49 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 14 de abril de 2015, 13:23:53 CEST
+fetch origin master
+Date: martes, 14 de abril de 2015, 13:25:16 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 14 de abril de 2015, 13:25:23 CEST
+pull origin master
+Date: martes, 14 de abril de 2015, 13:26:08 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 14 de abril de 2015, 13:27:54 CEST
+pull origin master --tags
+Date: martes, 14 de abril de 2015, 13:28:06 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 14 de abril de 2015, 13:28:13 CEST
+checkout develop
+Date: martes, 14 de abril de 2015, 13:28:16 CEST
+merge master
+Date: martes, 14 de abril de 2015, 13:28:21 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 14 de abril de 2015, 13:28:36 CEST
+push origin develop
+Date: martes, 14 de abril de 2015, 13:28:43 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 14 de abril de 2015, 13:39:01 CEST
+commit -am skinny wars a true
+Date: martes, 14 de abril de 2015, 14:48:18 CEST
+status -sb 
+Date: martes, 14 de abril de 2015, 14:48:21 CEST
+status -sb 
+Date: viernes, 17 de abril de 2015, 12:20:20 CEST
+add .
+Date: viernes, 17 de abril de 2015, 12:20:23 CEST
+status -sb 
+Date: viernes, 17 de abril de 2015, 12:20:26 CEST
+commit -am primer commit
+Date: viernes, 17 de abril de 2015, 12:20:40 CEST
+status -sb 
+Date: viernes, 17 de abril de 2015, 12:20:43 CEST
+status -sb 
+Date: viernes, 17 de abril de 2015, 12:47:26 CEST
+diff
+Date: viernes, 17 de abril de 2015, 12:47:53 CEST
+commit -am added: scm & nexus. Fixed: repeadeble maven warning. stackoverflow 21598016
+Date: viernes, 17 de abril de 2015, 12:49:05 CEST
+push origin develop
+Date: viernes, 17 de abril de 2015, 12:49:53 CEST
+fetch origin develop
+Date: lunes, 20 de abril de 2015, 19:15:22 CEST
+checkout develop
+Date: lunes, 20 de abril de 2015, 19:15:28 CEST
+fetch origin develop
+Date: lunes, 20 de abril de 2015, 19:15:34 CEST
+status -sb 
+Date: lunes, 20 de abril de 2015, 19:53:51 CEST
+add .
+Date: lunes, 20 de abril de 2015, 19:53:54 CEST
+commit -am nuevo apartado de contacto
+Date: lunes, 20 de abril de 2015, 19:54:01 CEST
+push origin develop
+Date: lunes, 20 de abril de 2015, 19:54:09 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 07:46:59 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 08:27:32 CEST
+diff
+Date: martes, 21 de abril de 2015, 08:27:36 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 08:27:45 CEST
+remote -v
+Date: martes, 21 de abril de 2015, 08:37:42 CEST
+status -sb 
+Date: martes, 21 de abril de 2015, 08:38:07 CEST
+remote -v
+Date: martes, 21 de abril de 2015, 08:38:16 CEST
+fetch origin develop
+Date: martes, 21 de abril de 2015, 08:38:32 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 08:38:36 CEST
+pull origin develop
+Date: martes, 21 de abril de 2015, 08:38:43 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 08:38:47 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 08:38:57 CEST
+status -sb 
+Date: martes, 21 de abril de 2015, 08:38:58 CEST
+diff
+Date: martes, 21 de abril de 2015, 08:39:07 CEST
+status -sb 
+Date: martes, 21 de abril de 2015, 08:39:30 CEST
+difftool
+Date: martes, 21 de abril de 2015, 08:39:35 CEST
+fetch origin develop
+Date: martes, 21 de abril de 2015, 08:40:26 CEST
+pull origin develop
+Date: martes, 21 de abril de 2015, 08:40:36 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 08:40:51 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 08:41:01 CEST
+fetch origin develop
+Date: martes, 21 de abril de 2015, 08:41:39 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 08:41:57 CEST
+diff
+Date: martes, 21 de abril de 2015, 08:42:03 CEST
+commit -am puesto hibernate ddl a none
+Date: martes, 21 de abril de 2015, 08:42:14 CEST
+pull origin develop
+Date: martes, 21 de abril de 2015, 08:42:20 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 08:42:30 CEST
+push origin develop
+Date: martes, 21 de abril de 2015, 08:42:48 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 08:42:52 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 08:43:27 CEST
+remote -v
+Date: martes, 21 de abril de 2015, 08:43:47 CEST
+fetch origin develop
+Date: martes, 21 de abril de 2015, 08:43:56 CEST
+push origin develop
+Date: martes, 21 de abril de 2015, 08:44:04 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 21 de abril de 2015, 08:44:08 CEST
+fetch origin develop
+Date: martes, 21 de abril de 2015, 08:45:27 CEST
+status -sb 
+Date: martes, 21 de abril de 2015, 12:43:48 CEST
+status -sb 
+Date: martes, 21 de abril de 2015, 12:43:50 CEST
+commit -am passing all test
+Date: martes, 21 de abril de 2015, 12:44:03 CEST
+commit -am passing all tests
+Date: martes, 21 de abril de 2015, 12:44:17 CEST
+push origin develop
+Date: martes, 21 de abril de 2015, 12:44:33 CEST
+push origin develop
+Date: martes, 21 de abril de 2015, 12:44:41 CEST
+status -sb 
+Date: miércoles, 22 de abril de 2015, 09:55:33 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 22 de abril de 2015, 15:05:49 CEST
+status -sb 
+Date: miércoles, 22 de abril de 2015, 15:05:50 CEST
+status -sb 
+Date: miércoles, 22 de abril de 2015, 15:05:56 CEST
+commit -am text file lf to crlf
+Date: miércoles, 22 de abril de 2015, 15:06:13 CEST
+fetch origin develop 
+Date: miércoles, 22 de abril de 2015, 19:15:45 CEST
+pull origin develop
+Date: miércoles, 22 de abril de 2015, 19:15:52 CEST
+status -sb 
+Date: miércoles, 22 de abril de 2015, 19:22:13 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 22 de abril de 2015, 19:22:16 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 08:02:38 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 08:04:31 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 08:07:23 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 08:07:47 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 08:07:51 CEST
+add .
+Date: jueves, 23 de abril de 2015, 08:08:28 CEST
+commit -am commit inicial empieza en v1.5
+Date: jueves, 23 de abril de 2015, 08:08:44 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 08:16:26 CEST
+add .
+Date: jueves, 23 de abril de 2015, 08:16:30 CEST
+commit -am added readme
+Date: jueves, 23 de abril de 2015, 08:16:38 CEST
+tag 1.5
+Date: jueves, 23 de abril de 2015, 08:18:21 CEST
+checkout master
+Date: jueves, 23 de abril de 2015, 08:30:01 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 08:30:03 CEST
+checkout develop
+Date: jueves, 23 de abril de 2015, 08:30:22 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 08:30:26 CEST
+tag --help
+Date: jueves, 23 de abril de 2015, 08:30:54 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 23 de abril de 2015, 08:31:24 CEST
+checkout develop
+Date: jueves, 23 de abril de 2015, 08:53:44 CEST
+branch 
+Date: jueves, 23 de abril de 2015, 08:53:46 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 09:23:38 CEST
+commit -am manager versions in poms and banners
+Date: jueves, 23 de abril de 2015, 09:24:41 CEST
+branch 
+Date: jueves, 23 de abril de 2015, 09:26:42 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 23 de abril de 2015, 09:27:29 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 23 de abril de 2015, 09:30:09 CEST
+checkout master
+Date: jueves, 23 de abril de 2015, 09:30:13 CEST
+checkout develop
+Date: jueves, 23 de abril de 2015, 09:30:38 CEST
+push origin develop --tags
+Date: jueves, 23 de abril de 2015, 09:30:52 CEST
+checkout master
+Date: jueves, 23 de abril de 2015, 09:30:58 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 19:53:18 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 19:53:31 CEST
+add .
+Date: jueves, 23 de abril de 2015, 19:53:37 CEST
+commit -am primer commit
+Date: jueves, 23 de abril de 2015, 19:53:44 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 20:04:09 CEST
+commit -am minor fixes
+Date: jueves, 23 de abril de 2015, 20:04:24 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 20:14:46 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 20:14:53 CEST
+commit -am crap4j dir en phing build file
+Date: jueves, 23 de abril de 2015, 20:15:06 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 20:23:04 CEST
+commit -am fixed location for crap4j report
+Date: jueves, 23 de abril de 2015, 20:23:22 CEST
+status -sb 
+Date: jueves, 23 de abril de 2015, 20:28:02 CEST
+diff
+Date: jueves, 23 de abril de 2015, 20:28:10 CEST
+commit -am fixed routes and changes in phing build file
+Date: jueves, 23 de abril de 2015, 20:29:06 CEST
+push origin develop
+Date: jueves, 23 de abril de 2015, 20:29:19 CEST
+checkout master
+Date: jueves, 23 de abril de 2015, 20:29:45 CEST
+merge develop
+Date: jueves, 23 de abril de 2015, 20:29:50 CEST
+push origin master
+Date: jueves, 23 de abril de 2015, 20:30:05 CEST
+status -sb 
+Date: domingo, 26 de abril de 2015, 21:29:03 CEST
+status -sb 
+Date: domingo, 26 de abril de 2015, 21:31:20 CEST
+add .
+Date: domingo, 26 de abril de 2015, 21:31:33 CEST
+status -sb 
+Date: domingo, 26 de abril de 2015, 21:31:34 CEST
+commit -am commit inicial
+Date: domingo, 26 de abril de 2015, 21:32:38 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: domingo, 26 de abril de 2015, 21:32:45 CEST
+status -sb 
+Date: lunes, 27 de abril de 2015, 19:48:06 CEST
+diff
+Date: lunes, 27 de abril de 2015, 19:48:12 CEST
+difftool
+Date: lunes, 27 de abril de 2015, 19:48:17 CEST
+commit -am register email and composer install in build
+Date: lunes, 27 de abril de 2015, 19:48:47 CEST
+push origin develop
+Date: lunes, 27 de abril de 2015, 19:48:55 CEST
+remote -v
+Date: lunes, 27 de abril de 2015, 19:48:57 CEST
+remote -v
+Date: miércoles, 29 de abril de 2015, 08:54:41 CEST
+status -sb 
+Date: miércoles, 29 de abril de 2015, 08:56:28 CEST
+status -sb 
+Date: miércoles, 29 de abril de 2015, 08:57:44 CEST
+add .
+Date: miércoles, 29 de abril de 2015, 08:58:04 CEST
+commit -am reubicación de ficheros y añadidos resources
+Date: miércoles, 29 de abril de 2015, 08:58:24 CEST
+remote -v
+Date: miércoles, 29 de abril de 2015, 08:58:28 CEST
+status -sb 
+Date: miércoles, 29 de abril de 2015, 09:01:15 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 15:22:18 CEST
+add .
+Date: lunes,  4 de mayo de 2015, 15:22:35 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 15:22:38 CEST
+add .
+Date: lunes,  4 de mayo de 2015, 15:22:43 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 15:22:44 CEST
+commit -am commit inicial: spring-boot 1.2.3 project with jar modules and security controller tests
+Date: lunes,  4 de mayo de 2015, 15:23:55 CEST
+fetch origin develop 
+Date: lunes,  4 de mayo de 2015, 18:08:44 CEST
+checkout develop
+Date: lunes,  4 de mayo de 2015, 18:08:54 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  4 de mayo de 2015, 18:09:01 CEST
+reflog
+Date: lunes,  4 de mayo de 2015, 18:09:13 CEST
+pull origin develop 
+Date: lunes,  4 de mayo de 2015, 18:09:47 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 18:09:48 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 18:11:07 CEST
+commit -am version pumped up
+Date: lunes,  4 de mayo de 2015, 18:11:27 CEST
+push origin develop 
+Date: lunes,  4 de mayo de 2015, 18:11:36 CEST
+checkout master
+Date: lunes,  4 de mayo de 2015, 18:11:44 CEST
+merge develop
+Date: lunes,  4 de mayo de 2015, 18:11:48 CEST
+tag 2.5
+Date: lunes,  4 de mayo de 2015, 18:11:55 CEST
+push origin master --tags
+Date: lunes,  4 de mayo de 2015, 18:12:15 CEST
+checkout develop
+Date: lunes,  4 de mayo de 2015, 18:12:18 CEST
+push origin develop --tags
+Date: lunes,  4 de mayo de 2015, 18:12:28 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  4 de mayo de 2015, 18:12:46 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 18:28:23 CEST
+commit -am added: scm y nexus, surefire and failsafe to pom
+Date: lunes,  4 de mayo de 2015, 18:29:32 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 18:29:39 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  4 de mayo de 2015, 18:29:42 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 18:33:35 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 18:41:15 CEST
+commit -am spring boot plugin no va en el pom de build
+Date: lunes,  4 de mayo de 2015, 18:41:38 CEST
+push origin develop
+Date: lunes,  4 de mayo de 2015, 18:41:45 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 18:57:45 CEST
+commit -am optimize imports
+Date: lunes,  4 de mayo de 2015, 18:58:13 CEST
+push origin develop
+Date: lunes,  4 de mayo de 2015, 18:58:20 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 19:15:56 CEST
+commit -am Subclasses that add fields should override 'equals'
+Date: lunes,  4 de mayo de 2015, 19:16:07 CEST
+push origin develop 
+Date: lunes,  4 de mayo de 2015, 19:16:14 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 19:34:12 CEST
+commit -am importante! en el maven-release los parametros de scm son Username y Password
+Date: lunes,  4 de mayo de 2015, 19:34:33 CEST
+push origin develop
+Date: lunes,  4 de mayo de 2015, 19:34:41 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 19:40:14 CEST
+commit -am el scm es bmportal.git y no mancor.git
+Date: lunes,  4 de mayo de 2015, 19:40:30 CEST
+push origin develop 
+Date: lunes,  4 de mayo de 2015, 19:40:34 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 20:02:06 CEST
+commit -am trying to pull http://warpedjavaguy.wordpress.com/2011/08/08/how-i-defeated-the-maven-release-plugin-in-a-flat-structured-multi-module-project/ off
+Date: lunes,  4 de mayo de 2015, 20:03:12 CEST
+add .
+Date: lunes,  4 de mayo de 2015, 20:03:15 CEST
+push origin develop 
+Date: lunes,  4 de mayo de 2015, 20:03:44 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 20:24:34 CEST
+commit -am movido scm al root pom.xml
+Date: lunes,  4 de mayo de 2015, 20:24:49 CEST
+push origin develop
+Date: lunes,  4 de mayo de 2015, 20:24:55 CEST
+checkout master
+Date: lunes,  4 de mayo de 2015, 20:24:57 CEST
+checkout master
+Date: lunes,  4 de mayo de 2015, 20:25:06 CEST
+checkout develop
+Date: lunes,  4 de mayo de 2015, 20:25:09 CEST
+branch -d master
+Date: lunes,  4 de mayo de 2015, 20:31:49 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 20:31:55 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 20:34:39 CEST
+add .
+Date: lunes,  4 de mayo de 2015, 20:34:42 CEST
+push -u origin --all
+Date: lunes,  4 de mayo de 2015, 20:36:40 CEST
+commit -am init
+Date: lunes,  4 de mayo de 2015, 20:36:47 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 20:44:00 CEST
+commit -am el distribution management tiene que estar en el parent
+Date: lunes,  4 de mayo de 2015, 20:44:12 CEST
+push origin develop
+Date: lunes,  4 de mayo de 2015, 20:44:19 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 21:04:54 CEST
+add .
+Date: lunes,  4 de mayo de 2015, 21:04:56 CEST
+commit -am git flow init
+Date: lunes,  4 de mayo de 2015, 21:05:01 CEST
+add .
+Date: lunes,  4 de mayo de 2015, 21:13:24 CEST
+commit -am git flow init
+Date: lunes,  4 de mayo de 2015, 21:13:29 CEST
+push -u origin --all
+Date: lunes,  4 de mayo de 2015, 21:13:46 CEST
+status -sb 
+Date: lunes,  4 de mayo de 2015, 21:21:59 CEST
+commit -am typo in pom name
+Date: lunes,  4 de mayo de 2015, 21:22:10 CEST
+push origin develop
+Date: lunes,  4 de mayo de 2015, 21:22:17 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 09:06:16 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 09:06:25 CEST
+commit -am flat structure for maven-release-plugin to be happy
+Date: martes,  5 de mayo de 2015, 09:06:41 CEST
+push origin develop
+Date: martes,  5 de mayo de 2015, 09:06:53 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 09:15:15 CEST
+add .
+Date: martes,  5 de mayo de 2015, 09:15:21 CEST
+commit -am added all files
+Date: martes,  5 de mayo de 2015, 09:15:31 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 11:11:19 CEST
+commit -am nuevos metodos equals en objetos
+Date: martes,  5 de mayo de 2015, 11:11:31 CEST
+push origin develop
+Date: martes,  5 de mayo de 2015, 11:11:37 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 11:16:51 CEST
+fetch origin develop
+Date: martes,  5 de mayo de 2015, 11:16:59 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 11:17:01 CEST
+checkout master
+Date: martes,  5 de mayo de 2015, 11:17:04 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 11:17:21 CEST
+pull origin master
+Date: martes,  5 de mayo de 2015, 11:17:32 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 11:17:34 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes,  5 de mayo de 2015, 11:17:38 CEST
+pull origin master --tags
+Date: martes,  5 de mayo de 2015, 11:17:49 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 11:17:51 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes,  5 de mayo de 2015, 11:17:58 CEST
+checkout develop
+Date: martes,  5 de mayo de 2015, 11:18:06 CEST
+merge master
+Date: martes,  5 de mayo de 2015, 11:18:36 CEST
+push origin develop
+Date: martes,  5 de mayo de 2015, 11:18:45 CEST
+push origin develop --tags
+Date: martes,  5 de mayo de 2015, 11:18:51 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 11:50:19 CEST
+commit -am @Override annotation should be used on any method overriding (since Java 5) or implementing (since Java 6) another one
+Date: martes,  5 de mayo de 2015, 11:50:43 CEST
+push origin develop 
+Date: martes,  5 de mayo de 2015, 11:51:04 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 13:19:31 CEST
+add .
+Date: martes,  5 de mayo de 2015, 13:19:39 CEST
+commit -am casi todos los recursos estáticos de aI
+Date: martes,  5 de mayo de 2015, 13:20:01 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 15:13:34 CEST
+add .
+Date: martes,  5 de mayo de 2015, 15:13:36 CEST
+commit -am insertado el front-end de adminIncidencias faltan implementar repositories y services
+Date: martes,  5 de mayo de 2015, 15:14:04 CEST
+status -sb 
+Date: martes,  5 de mayo de 2015, 15:18:24 CEST
+commit -am added LocaleChangeInterceptor
+Date: martes,  5 de mayo de 2015, 15:19:34 CEST
+status -sb 
+Date: miércoles,  6 de mayo de 2015, 09:33:32 CEST
+add .
+Date: miércoles,  6 de mayo de 2015, 09:33:34 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles,  6 de mayo de 2015, 09:33:42 CEST
+commit -am insertado el front-end de adminHoras (faltan el backend: servicios,repos...)
+Date: miércoles,  6 de mayo de 2015, 09:34:05 CEST
+push origin develop
+Date: miércoles,  6 de mayo de 2015, 09:37:18 CEST
+status -sb 
+Date: miércoles,  6 de mayo de 2015, 11:21:14 CEST
+add .
+Date: miércoles,  6 de mayo de 2015, 11:21:19 CEST
+commit -am fixed: sonar issues critical & minor
+Date: miércoles,  6 de mayo de 2015, 11:21:54 CEST
+status -sb 
+Date: miércoles,  6 de mayo de 2015, 12:10:55 CEST
+status -sb 
+Date: miércoles,  6 de mayo de 2015, 12:11:03 CEST
+commit -am fixed sonar rules
+Date: miércoles,  6 de mayo de 2015, 12:11:14 CEST
+status -sb 
+Date: miércoles,  6 de mayo de 2015, 13:19:25 CEST
+commit -am fiexd sonar inspections
+Date: miércoles,  6 de mayo de 2015, 13:19:33 CEST
+commit -am more fixed sonar inspections
+Date: miércoles,  6 de mayo de 2015, 13:26:00 CEST
+status -sb 
+Date: jueves,  7 de mayo de 2015, 08:28:26 CEST
+status -sb 
+Date: jueves,  7 de mayo de 2015, 08:30:26 CEST
+status -sb 
+Date: jueves,  7 de mayo de 2015, 08:31:35 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  7 de mayo de 2015, 08:31:38 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  7 de mayo de 2015, 08:31:59 CEST
+commit -am more fixed sonar inspections II
+Date: jueves,  7 de mayo de 2015, 08:32:07 CEST
+status -sb 
+Date: jueves,  7 de mayo de 2015, 08:43:13 CEST
+commit -am more fixed sonar inspections IV
+Date: jueves,  7 de mayo de 2015, 08:43:18 CEST
+status -sb 
+Date: jueves,  7 de mayo de 2015, 08:53:16 CEST
+status -sb 
+Date: jueves,  7 de mayo de 2015, 09:53:25 CEST
+commit -am preparando la authentification
+Date: jueves,  7 de mayo de 2015, 09:53:45 CEST
+status -sb 
+Date: jueves,  7 de mayo de 2015, 11:09:49 CEST
+status -sb 
+Date: viernes,  8 de mayo de 2015, 10:56:44 CEST
+commit -am incluido Usuarios,Roles y authentication, por ahora en inMemory
+Date: viernes,  8 de mayo de 2015, 10:57:13 CEST
+commit -am fixing problems with upper letter of ConexionJiraProd
+Date: viernes,  8 de mayo de 2015, 10:59:50 CEST
+status -sb 
+Date: viernes,  8 de mayo de 2015, 11:00:26 CEST
+diff
+Date: viernes,  8 de mayo de 2015, 11:00:32 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes,  8 de mayo de 2015, 11:00:49 CEST
+commit -am resotored ConexionJiraProd
+Date: viernes,  8 de mayo de 2015, 11:01:03 CEST
+pull origin develop
+Date: viernes,  8 de mayo de 2015, 19:56:11 CEST
+status -sb 
+Date: viernes,  8 de mayo de 2015, 20:26:03 CEST
+status -sb 
+Date: viernes,  8 de mayo de 2015, 20:28:03 CEST
+difftool
+Date: viernes,  8 de mayo de 2015, 20:28:14 CEST
+add .
+Date: viernes,  8 de mayo de 2015, 20:28:50 CEST
+commit -am imagen vacia en listado y ordenacion resultados por id desc
+Date: viernes,  8 de mayo de 2015, 20:29:13 CEST
+push origin develop
+Date: viernes,  8 de mayo de 2015, 20:29:21 CEST
+status -sb 
+Date: viernes,  8 de mayo de 2015, 21:52:15 CEST
+commit -am Ajustes en los formularios de contacto,quiero y oferta
+Date: viernes,  8 de mayo de 2015, 21:52:29 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes,  8 de mayo de 2015, 21:52:59 CEST
+reflog
+Date: viernes,  8 de mayo de 2015, 21:53:10 CEST
+pull origin develop
+Date: viernes,  8 de mayo de 2015, 21:53:18 CEST
+push origin develop 
+Date: viernes,  8 de mayo de 2015, 21:53:25 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 08:17:54 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 11 de mayo de 2015, 08:18:12 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 08:24:23 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 11 de mayo de 2015, 08:49:53 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 11 de mayo de 2015, 08:49:56 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 08:49:56 CEST
+commit -am fixing serializable issues and sonar inspections
+Date: lunes, 11 de mayo de 2015, 08:50:13 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 08:54:08 CEST
+commit -am Me sobra el BMUser teniendo el User
+Date: lunes, 11 de mayo de 2015, 08:54:18 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 09:13:50 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 09:13:59 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 09:27:35 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 09:47:25 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 09:47:33 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 09:47:36 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 13:44:46 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 13:44:48 CEST
+remote
+Date: lunes, 11 de mayo de 2015, 13:45:02 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 13:45:37 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 13:58:12 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:05:25 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:05:59 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:06:23 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:07:03 CEST
+commit -am primer commit con submodules
+Date: lunes, 11 de mayo de 2015, 14:07:16 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:07:18 CEST
+add .
+Date: lunes, 11 de mayo de 2015, 14:07:21 CEST
+commit -am added el gitignore al root
+Date: lunes, 11 de mayo de 2015, 14:07:32 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:07:34 CEST
+branch develop
+Date: lunes, 11 de mayo de 2015, 14:07:44 CEST
+checkout develop
+Date: lunes, 11 de mayo de 2015, 14:07:51 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:07:54 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 11 de mayo de 2015, 14:07:56 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 14:08:08 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 14:08:14 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:14:34 CEST
+add .
+Date: lunes, 11 de mayo de 2015, 14:14:39 CEST
+commit -am first commit
+Date: lunes, 11 de mayo de 2015, 14:14:50 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 14:19:17 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:20:53 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:28:14 CEST
+push origin develop
+Date: lunes, 11 de mayo de 2015, 14:28:25 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 11 de mayo de 2015, 14:28:28 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 14:28:37 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 14:28:45 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:29:22 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 14:29:24 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:41:06 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:41:17 CEST
+add .
+Date: lunes, 11 de mayo de 2015, 14:41:24 CEST
+commit -am todo inicializado
+Date: lunes, 11 de mayo de 2015, 14:41:36 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 14:43:23 CEST
+remote -v
+Date: lunes, 11 de mayo de 2015, 14:48:33 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 14:54:38 CEST
+status -sb 
+Date: lunes, 11 de mayo de 2015, 18:31:38 CEST
+commit -am Actualizar los destacados con los update de las propiedades, ordenar por id
+Date: lunes, 11 de mayo de 2015, 18:32:02 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 11 de mayo de 2015, 18:32:07 CEST
+push origin develop
+Date: lunes, 11 de mayo de 2015, 18:32:15 CEST
+remote -v
+Date: martes, 12 de mayo de 2015, 09:37:41 CEST
+status -sb 
+Date: miércoles, 13 de mayo de 2015, 09:49:33 CEST
+commit -am Entorno bdd h2 local jira. Primeras consultas en desa
+Date: miércoles, 13 de mayo de 2015, 09:50:14 CEST
+commit -am sonar inspections solved
+Date: miércoles, 13 de mayo de 2015, 10:01:31 CEST
+status -sb 
+Date: miércoles, 13 de mayo de 2015, 12:54:28 CEST
+commit -am configurando el entorno de test
+Date: miércoles, 13 de mayo de 2015, 12:54:40 CEST
+status -sb 
+Date: miércoles, 13 de mayo de 2015, 20:42:38 CEST
+status -sb 
+Date: miércoles, 13 de mayo de 2015, 20:43:08 CEST
+commit -am multilinkcrm en gitignore
+Date: miércoles, 13 de mayo de 2015, 20:43:21 CEST
+push origin develop
+Date: miércoles, 13 de mayo de 2015, 20:43:27 CEST
+status -sb 
+Date: jueves, 14 de mayo de 2015, 13:48:04 CEST
+commit -am aplicado todo el dashboard menos SLAs
+Date: jueves, 14 de mayo de 2015, 13:48:24 CEST
+fetch origin develop
+Date: sábado, 16 de mayo de 2015, 14:58:13 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: sábado, 16 de mayo de 2015, 14:58:26 CEST
+status -sb 
+Date: sábado, 16 de mayo de 2015, 15:00:35 CEST
+status -sb 
+Date: sábado, 16 de mayo de 2015, 15:00:41 CEST
+status -sb 
+Date: sábado, 16 de mayo de 2015, 15:01:50 CEST
+status -sb 
+Date: sábado, 16 de mayo de 2015, 15:07:04 CEST
+status -sb 
+Date: sábado, 16 de mayo de 2015, 15:07:29 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: sábado, 16 de mayo de 2015, 15:07:56 CEST
+status -sb 
+Date: sábado, 16 de mayo de 2015, 15:08:16 CEST
+status -sb 
+Date: sábado, 16 de mayo de 2015, 15:12:03 CEST
+status -sb 
+Date: sábado, 16 de mayo de 2015, 15:13:14 CEST
+status -sb 
+Date: sábado, 16 de mayo de 2015, 15:13:26 CEST
+status -sb 
+Date: sábado, 16 de mayo de 2015, 15:13:41 CEST
+remote -v
+Date: sábado, 16 de mayo de 2015, 15:13:47 CEST
+add .
+Date: sábado, 16 de mayo de 2015, 15:14:03 CEST
+commit -am nuevo proxy y prompt
+Date: sábado, 16 de mayo de 2015, 15:14:18 CEST
+push origin master
+Date: sábado, 16 de mayo de 2015, 15:14:25 CEST
+status -sb 
+Date: sábado, 16 de mayo de 2015, 15:14:42 CEST
+commit -am sample custom plugin file deleted
+Date: sábado, 16 de mayo de 2015, 15:15:14 CEST
+checkout develop
+Date: miércoles, 20 de mayo de 2015, 08:01:22 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 20 de mayo de 2015, 08:01:29 CEST
+status -sb 
+Date: miércoles, 20 de mayo de 2015, 08:38:16 CEST
+status -sb 
+Date: miércoles, 20 de mayo de 2015, 09:37:27 CEST
+add .
+Date: miércoles, 20 de mayo de 2015, 09:37:32 CEST
+status -sb 
+Date: miércoles, 20 de mayo de 2015, 09:37:34 CEST
+commit -am added sources.zsh with aws-cli completion and some cleanup in aliases
+Date: miércoles, 20 de mayo de 2015, 09:38:04 CEST
+push origin master 
+Date: miércoles, 20 de mayo de 2015, 09:38:24 CEST
+status -sb 
+Date: jueves, 21 de mayo de 2015, 08:29:09 CEST
+status -sb 
+Date: jueves, 21 de mayo de 2015, 08:34:33 CEST
+status -sb 
+Date: jueves, 21 de mayo de 2015, 08:34:58 CEST
+status -sb 
+Date: jueves, 21 de mayo de 2015, 08:52:00 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 21 de mayo de 2015, 08:52:05 CEST
+status -sb 
+Date: jueves, 21 de mayo de 2015, 12:31:56 CEST
+add .
+Date: jueves, 21 de mayo de 2015, 12:32:00 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 08:30:14 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 08:30:24 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 22 de mayo de 2015, 08:30:30 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 08:38:54 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 09:07:35 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 09:07:50 CEST
+difftool
+Date: viernes, 22 de mayo de 2015, 09:07:56 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 09:08:36 CEST
+difftool
+Date: viernes, 22 de mayo de 2015, 09:08:43 CEST
+commit -am nuevo parameters dist con los de bzframework
+Date: viernes, 22 de mayo de 2015, 09:11:00 CEST
+push origin develop 
+Date: viernes, 22 de mayo de 2015, 09:11:06 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 10:49:53 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 11:12:53 CEST
+commit -am fixed inspections
+Date: viernes, 22 de mayo de 2015, 11:13:06 CEST
+push origin develop 
+Date: viernes, 22 de mayo de 2015, 11:13:22 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 13:58:09 CEST
+add .
+Date: viernes, 22 de mayo de 2015, 13:58:15 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 22 de mayo de 2015, 13:58:37 CEST
+commit -am aplicado el principio de los SLAs, aproximacion con Factoria
+Date: viernes, 22 de mayo de 2015, 13:58:58 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 14:15:38 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 14:30:56 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 14:31:07 CEST
+commit -am style fixes and @Nullable removed
+Date: viernes, 22 de mayo de 2015, 14:31:20 CEST
+push origin develop
+Date: viernes, 22 de mayo de 2015, 14:31:41 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 14:36:47 CEST
+commit -am el applicatio properties necesita el dirAppLocalConf para encontrarlo en los test de jenkins
+Date: viernes, 22 de mayo de 2015, 14:37:09 CEST
+status -sb 
+Date: viernes, 22 de mayo de 2015, 14:56:43 CEST
+commit -am se ejecuntan los sqls de test y de main, quitar el de test
+Date: viernes, 22 de mayo de 2015, 14:57:48 CEST
+push origin develop
+Date: viernes, 22 de mayo de 2015, 14:58:11 CEST
+fetch origin develop 
+Date: lunes, 25 de mayo de 2015, 07:55:15 CEST
+pull origin develop 
+Date: lunes, 25 de mayo de 2015, 07:55:30 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 25 de mayo de 2015, 07:55:35 CEST
+status -sb 
+Date: lunes, 25 de mayo de 2015, 08:39:04 CEST
+commit -am arreglado: ocultar cargar mas cuando se llega a la ultima pagina
+Date: lunes, 25 de mayo de 2015, 08:39:36 CEST
+push origin develop 
+Date: lunes, 25 de mayo de 2015, 08:39:42 CEST
+status -sb 
+Date: lunes, 25 de mayo de 2015, 10:46:35 CEST
+fetch origin develop 
+Date: lunes, 25 de mayo de 2015, 10:47:06 CEST
+pull origin develop 
+Date: lunes, 25 de mayo de 2015, 10:47:14 CEST
+fetch origin develop 
+Date: lunes, 25 de mayo de 2015, 10:47:30 CEST
+status -sb 
+Date: lunes, 25 de mayo de 2015, 11:46:19 CEST
+commit -am added estados que faltaban a ffinal,factoria,vivas
+Date: lunes, 25 de mayo de 2015, 11:46:35 CEST
+status -sb 
+Date: lunes, 25 de mayo de 2015, 13:16:41 CEST
+difftool
+Date: lunes, 25 de mayo de 2015, 13:16:49 CEST
+commit -am commentarios en los datasource inyectados y pequeños estilos css
+Date: lunes, 25 de mayo de 2015, 13:17:54 CEST
+push origin develop 
+Date: lunes, 25 de mayo de 2015, 13:18:05 CEST
+achievements list
+Date: lunes, 25 de mayo de 2015, 13:21:42 CEST
+achievements -l
+Date: lunes, 25 de mayo de 2015, 13:21:47 CEST
+fetch origin develop
+Date: lunes, 25 de mayo de 2015, 13:34:49 CEST
+pull origin develop
+Date: lunes, 25 de mayo de 2015, 13:35:13 CEST
+status -sb 
+Date: lunes, 25 de mayo de 2015, 14:55:12 CEST
+commit -am fixed inspections of SonarQube
+Date: lunes, 25 de mayo de 2015, 14:55:20 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 25 de mayo de 2015, 15:19:36 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 25 de mayo de 2015, 15:19:46 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 25 de mayo de 2015, 15:19:53 CEST
+commit -am fixed inspections en SonarQube
+Date: lunes, 25 de mayo de 2015, 15:20:05 CEST
+remote -v
+Date: martes, 26 de mayo de 2015, 07:54:56 CEST
+pull origin develop
+Date: martes, 26 de mayo de 2015, 07:55:27 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 26 de mayo de 2015, 07:55:44 CEST
+status -sb 
+Date: martes, 26 de mayo de 2015, 08:43:36 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 26 de mayo de 2015, 08:43:39 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 26 de mayo de 2015, 08:43:47 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 26 de mayo de 2015, 08:54:27 CEST
+commit -am fixed inspections SonarQube
+Date: martes, 26 de mayo de 2015, 08:54:35 CEST
+commit -am removed unused imports
+Date: martes, 26 de mayo de 2015, 08:58:00 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 26 de mayo de 2015, 09:37:40 CEST
+status -sb 
+Date: martes, 26 de mayo de 2015, 09:40:06 CEST
+status -sb 
+Date: martes, 26 de mayo de 2015, 13:02:10 CEST
+difftool
+Date: martes, 26 de mayo de 2015, 13:02:16 CEST
+commit -am speedtest y color tree
+Date: martes, 26 de mayo de 2015, 13:02:40 CEST
+push origin master 
+Date: martes, 26 de mayo de 2015, 13:02:48 CEST
+status -sb 
+Date: miércoles, 27 de mayo de 2015, 10:06:24 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 27 de mayo de 2015, 10:07:07 CEST
+commit -am terminado resolved en statsjira y listados, y SLA4 fixed
+Date: miércoles, 27 de mayo de 2015, 10:08:52 CEST
+push origin develop
+Date: miércoles, 27 de mayo de 2015, 10:09:20 CEST
+fetch origin develop
+Date: miércoles, 27 de mayo de 2015, 12:50:37 CEST
+pull origin develop 
+Date: miércoles, 27 de mayo de 2015, 12:50:47 CEST
+fetch origin develop
+Date: jueves, 28 de mayo de 2015, 08:39:19 CEST
+status -sb 
+Date: jueves, 28 de mayo de 2015, 08:40:47 CEST
+push origin develop
+Date: jueves, 28 de mayo de 2015, 08:40:56 CEST
+commit -am retoques en los emails: textos y fotos
+Date: jueves, 28 de mayo de 2015, 08:41:22 CEST
+push origin develop
+Date: jueves, 28 de mayo de 2015, 08:41:32 CEST
+status -sb 
+Date: jueves, 28 de mayo de 2015, 09:09:25 CEST
+difftool
+Date: jueves, 28 de mayo de 2015, 09:09:31 CEST
+status -sb 
+Date: jueves, 28 de mayo de 2015, 09:10:41 CEST
+difftool
+Date: jueves, 28 de mayo de 2015, 09:10:46 CEST
+status -sb 
+Date: jueves, 28 de mayo de 2015, 09:11:20 CEST
+status -sb 
+Date: jueves, 28 de mayo de 2015, 09:14:03 CEST
+status -sb 
+Date: jueves, 28 de mayo de 2015, 09:15:17 CEST
+status -sb 
+Date: jueves, 28 de mayo de 2015, 09:16:10 CEST
+status -sb 
+Date: jueves, 28 de mayo de 2015, 11:26:36 CEST
+difftool
+Date: jueves, 28 de mayo de 2015, 11:26:43 CEST
+commit -am quitados ficheros obsoletos y mas inspections fixes
+Date: jueves, 28 de mayo de 2015, 11:27:17 CEST
+status -sb 
+Date: jueves, 28 de mayo de 2015, 12:28:27 CEST
+commit -am inspections sonar
+Date: jueves, 28 de mayo de 2015, 12:28:39 CEST
+status -sb 
+Date: jueves, 28 de mayo de 2015, 13:13:45 CEST
+commit -am init: iniciado el exception manager
+Date: jueves, 28 de mayo de 2015, 13:15:17 CEST
+fetch origin develop
+Date: jueves, 28 de mayo de 2015, 14:18:41 CEST
+fetch origin develop
+Date: viernes, 29 de mayo de 2015, 08:14:27 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 29 de mayo de 2015, 14:44:27 CEST
+status -sb 
+Date: viernes, 29 de mayo de 2015, 14:44:28 CEST
+pull origin develop
+Date: viernes, 29 de mayo de 2015, 14:44:57 CEST
+status -sb 
+Date: viernes, 29 de mayo de 2015, 14:45:05 CEST
+commit -am separando profiles jboss y tomcat, prod y dev
+Date: viernes, 29 de mayo de 2015, 14:45:34 CEST
+push origin develop 
+Date: viernes, 29 de mayo de 2015, 14:45:43 CEST
+status -sb 
+Date: lunes,  1 de junio de 2015, 09:39:38 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  1 de junio de 2015, 09:40:41 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  1 de junio de 2015, 10:41:11 CEST
+status -sb 
+Date: lunes,  1 de junio de 2015, 17:22:02 CEST
+pull origin develop 
+Date: lunes,  1 de junio de 2015, 17:22:08 CEST
+status -sb 
+Date: lunes,  1 de junio de 2015, 17:48:56 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  1 de junio de 2015, 17:49:02 CEST
+status -sb 
+Date: miércoles,  3 de junio de 2015, 08:16:40 CEST
+commit -am arreglo formularios quiero...
+Date: miércoles,  3 de junio de 2015, 08:17:07 CEST
+push origin develop
+Date: miércoles,  3 de junio de 2015, 08:17:22 CEST
+status -sb 
+Date: jueves,  4 de junio de 2015, 12:30:17 CEST
+commit -am resumenes y telons agrupacion,direccion,unidad
+Date: jueves,  4 de junio de 2015, 12:30:34 CEST
+status -sb 
+Date: jueves,  4 de junio de 2015, 12:41:15 CEST
+commit -am tamaño de la foto de perfil 35
+Date: jueves,  4 de junio de 2015, 12:41:30 CEST
+fetch origin develop
+Date: jueves,  4 de junio de 2015, 13:11:06 CEST
+pull origin develop 
+Date: jueves,  4 de junio de 2015, 13:11:18 CEST
+push origin develop 
+Date: jueves,  4 de junio de 2015, 13:11:32 CEST
+pull origin develop
+Date: Thu Jun  4 13:33:03 CEST 2015
+status -sb 
+Date: jueves,  4 de junio de 2015, 13:39:23 CEST
+status -sb 
+Date: jueves,  4 de junio de 2015, 13:39:41 CEST
+push origin develop
+Date: jueves,  4 de junio de 2015, 15:07:15 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  4 de junio de 2015, 15:09:48 CEST
+remote -v
+Date: jueves,  4 de junio de 2015, 15:09:50 CEST
+status -sb 
+Date: viernes,  5 de junio de 2015, 08:06:34 CEST
+status -sb 
+Date: viernes,  5 de junio de 2015, 14:21:28 CEST
+commit -am profiles prod,dev,tomcat y jboss, hay que cambiar el provided tomcat
+Date: viernes,  5 de junio de 2015, 14:22:03 CEST
+push origin develop 
+Date: viernes,  5 de junio de 2015, 14:22:10 CEST
+fetch origin develop 
+Date: viernes,  5 de junio de 2015, 14:22:28 CEST
+commit -am detalle de inmueble en nueva pestaña
+Date: viernes,  5 de junio de 2015, 14:23:38 CEST
+pull origin develop
+Date: viernes,  5 de junio de 2015, 14:23:46 CEST
+push origin develop
+Date: viernes,  5 de junio de 2015, 14:23:55 CEST
+status -sb 
+Date: viernes,  5 de junio de 2015, 14:29:41 CEST
+commit -am added: precio a consultar
+Date: viernes,  5 de junio de 2015, 14:29:49 CEST
+push origin develop
+Date: viernes,  5 de junio de 2015, 14:29:59 CEST
+status -sb 
+Date: lunes,  8 de junio de 2015, 08:50:38 CEST
+branch 
+Date: miércoles, 10 de junio de 2015, 08:51:40 CEST
+fetch origin develop 
+Date: miércoles, 10 de junio de 2015, 08:53:14 CEST
+flow feature start Optimizacion_SQL
+Date: miércoles, 10 de junio de 2015, 08:53:39 CEST
+fetch origin feature/Optimizacion_SQL
+Date: miércoles, 10 de junio de 2015, 08:53:56 CEST
+status -sb 
+Date: miércoles, 10 de junio de 2015, 08:55:21 CEST
+checkout develop
+Date: miércoles, 10 de junio de 2015, 08:55:29 CEST
+fetch origin develop
+Date: miércoles, 10 de junio de 2015, 08:55:39 CEST
+pull origin develop
+Date: miércoles, 10 de junio de 2015, 08:55:47 CEST
+branch 
+Date: miércoles, 10 de junio de 2015, 08:57:27 CEST
+fetch origin develop 
+Date: miércoles, 10 de junio de 2015, 09:17:04 CEST
+pull
+Date: miércoles, 10 de junio de 2015, 09:17:11 CEST
+checkout 
+Date: miércoles, 10 de junio de 2015, 09:17:14 CEST
+branch 
+Date: miércoles, 10 de junio de 2015, 09:17:18 CEST
+status -sb 
+Date: miércoles, 10 de junio de 2015, 09:17:39 CEST
+status -sb 
+Date: miércoles, 10 de junio de 2015, 09:37:29 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 10 de junio de 2015, 10:52:07 CEST
+commit -am resumenes en adminhoras fin
+Date: miércoles, 10 de junio de 2015, 11:45:54 CEST
+pull origin feature/Optimizacion_SQL
+Date: miércoles, 10 de junio de 2015, 11:49:20 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 10 de junio de 2015, 11:53:17 CEST
+status -sb 
+Date: miércoles, 10 de junio de 2015, 12:28:18 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 10 de junio de 2015, 12:28:35 CEST
+checkout develop
+Date: miércoles, 10 de junio de 2015, 14:03:52 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 10 de junio de 2015, 14:04:12 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 10 de junio de 2015, 14:04:34 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 10 de junio de 2015, 14:45:55 CEST
+status -sb 
+Date: miércoles, 10 de junio de 2015, 14:46:42 CEST
+mergetool
+Date: miércoles, 10 de junio de 2015, 14:49:32 CEST
+status -sb 
+Date: miércoles, 10 de junio de 2015, 14:51:17 CEST
+status -sb 
+Date: miércoles, 10 de junio de 2015, 14:53:18 CEST
+commit -am despues del merge han quedao dos lineas mal, fixed
+Date: miércoles, 10 de junio de 2015, 14:54:29 CEST
+checkout develop
+Date: miércoles, 10 de junio de 2015, 14:55:10 CEST
+fetch origin develop 
+Date: miércoles, 10 de junio de 2015, 14:55:17 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 10 de junio de 2015, 15:06:36 CEST
+status -sb 
+Date: miércoles, 10 de junio de 2015, 15:11:29 CEST
+commit -am subida la version y ejecutados los test
+Date: miércoles, 10 de junio de 2015, 15:11:38 CEST
+flow release finish 1.4.2
+Date: miércoles, 10 de junio de 2015, 15:12:30 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 10 de junio de 2015, 15:12:43 CEST
+status -sb 
+Date: miércoles, 10 de junio de 2015, 15:15:02 CEST
+pull origin develop
+Date: miércoles, 10 de junio de 2015, 15:16:00 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 10 de junio de 2015, 15:17:24 CEST
+log --graph --pretty=format:'%C(black)[%h]%C(reset) %C(black)-%d %s %C(black)- %C(green)%cr %C(green bold)%C(black)*%C(cyan bold) %an %C(black)*%C(reset)' --abbrev-commit --date=relative 
+Date: miércoles, 10 de junio de 2015, 15:17:28 CEST
+log
+Date: miércoles, 10 de junio de 2015, 15:17:32 CEST
+log --since=2.weeks --oneline --graph 
+Date: miércoles, 10 de junio de 2015, 15:17:40 CEST
+checkout master
+Date: miércoles, 10 de junio de 2015, 15:17:43 CEST
+push origin master --tags
+Date: miércoles, 10 de junio de 2015, 15:18:02 CEST
+branch
+Date: jueves, 11 de junio de 2015, 07:50:14 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 07:50:48 CEST
+add .
+Date: jueves, 11 de junio de 2015, 07:50:50 CEST
+commit -am commit 1
+Date: jueves, 11 de junio de 2015, 07:50:54 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 07:50:58 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 07:51:15 CEST
+commit -am commit 2
+Date: jueves, 11 de junio de 2015, 07:51:20 CEST
+commit -am commit 3 -> version 0.1
+Date: jueves, 11 de junio de 2015, 07:51:47 CEST
+flow release start 0.1
+Date: jueves, 11 de junio de 2015, 07:51:57 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 07:51:59 CEST
+commit -am commit 1 de release 0.1
+Date: jueves, 11 de junio de 2015, 07:52:24 CEST
+commit -am commit 2 de release 0.1
+Date: jueves, 11 de junio de 2015, 07:52:51 CEST
+flow release finish 0.1
+Date: jueves, 11 de junio de 2015, 07:53:19 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 07:53:29 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 07:58:49 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 08:02:35 CEST
+add .
+Date: jueves, 11 de junio de 2015, 08:03:48 CEST
+commit -am commit directamente en develop
+Date: jueves, 11 de junio de 2015, 08:03:55 CEST
+flow feature start funcionalidad-uno
+Date: jueves, 11 de junio de 2015, 08:04:23 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:04:38 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 08:04:44 CEST
+checkout feature/funcionalidad-uno
+Date: jueves, 11 de junio de 2015, 08:06:12 CEST
+add .
+Date: jueves, 11 de junio de 2015, 08:06:53 CEST
+commit -am commit 1 de la funcionalidad-uno
+Date: jueves, 11 de junio de 2015, 08:07:02 CEST
+commit -am commit 2 de la funcionalidad-uno
+Date: jueves, 11 de junio de 2015, 08:07:24 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:07:33 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:08:20 CEST
+branch
+Date: jueves, 11 de junio de 2015, 08:08:24 CEST
+branch master
+Date: jueves, 11 de junio de 2015, 08:08:33 CEST
+checkout master
+Date: jueves, 11 de junio de 2015, 08:09:20 CEST
+pull
+Date: jueves, 11 de junio de 2015, 08:09:32 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:10:12 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:10:21 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:10:29 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 08:10:30 CEST
+push origin master
+Date: jueves, 11 de junio de 2015, 08:10:43 CEST
+checkout master
+Date: jueves, 11 de junio de 2015, 08:10:50 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:10:55 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 08:10:59 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:11:03 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 08:11:05 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:11:07 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:11:10 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 08:36:36 CEST
+checkout 
+Date: jueves, 11 de junio de 2015, 08:36:37 CEST
+checkout master
+Date: jueves, 11 de junio de 2015, 08:36:57 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 08:37:12 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 08:38:10 CEST
+add .
+Date: jueves, 11 de junio de 2015, 08:38:46 CEST
+commit -am inicio
+Date: jueves, 11 de junio de 2015, 08:38:57 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:39:09 CEST
+flow release start 0
+Date: jueves, 11 de junio de 2015, 08:39:24 CEST
+commit -am primera release
+Date: jueves, 11 de junio de 2015, 08:40:01 CEST
+flow release finish 0
+Date: jueves, 11 de junio de 2015, 08:40:22 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:40:27 CEST
+branch
+Date: jueves, 11 de junio de 2015, 08:41:02 CEST
+branch
+Date: jueves, 11 de junio de 2015, 08:42:03 CEST
+checkout master
+Date: jueves, 11 de junio de 2015, 08:42:05 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:42:12 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 08:42:46 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:43:49 CEST
+add .
+Date: jueves, 11 de junio de 2015, 08:43:53 CEST
+commit -am commit 1 en develop
+Date: jueves, 11 de junio de 2015, 08:44:21 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:44:30 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:47:31 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 08:47:32 CEST
+commit -am commit 2 en develop
+Date: jueves, 11 de junio de 2015, 08:47:40 CEST
+fetch origin develop 
+Date: jueves, 11 de junio de 2015, 08:47:49 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:47:56 CEST
+push origin develop 
+Date: jueves, 11 de junio de 2015, 08:48:08 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:48:19 CEST
+fetch origin develop 
+Date: jueves, 11 de junio de 2015, 08:48:26 CEST
+pull origin develop 
+Date: jueves, 11 de junio de 2015, 08:48:30 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:48:34 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:49:41 CEST
+checkout master
+Date: jueves, 11 de junio de 2015, 08:49:43 CEST
+checkout master
+Date: jueves, 11 de junio de 2015, 08:49:47 CEST
+flow init
+Date: jueves, 11 de junio de 2015, 08:49:58 CEST
+flow init
+Date: jueves, 11 de junio de 2015, 08:50:06 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 08:50:11 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 08:50:13 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:50:22 CEST
+flow feature start funcionalidad-uno
+Date: jueves, 11 de junio de 2015, 08:51:10 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:51:12 CEST
+add .
+Date: jueves, 11 de junio de 2015, 08:51:51 CEST
+commit -am commit en develop
+Date: jueves, 11 de junio de 2015, 08:52:21 CEST
+add .
+Date: jueves, 11 de junio de 2015, 08:52:52 CEST
+commit -am commit 1 de funcionalidad-uno
+Date: jueves, 11 de junio de 2015, 08:53:03 CEST
+commit -am commit 2 de funcionalidad-uno
+Date: jueves, 11 de junio de 2015, 08:53:34 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:54:01 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:54:03 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:55:33 CEST
+commit -am commit 3 en develop
+Date: jueves, 11 de junio de 2015, 08:55:39 CEST
+push origin develop
+Date: jueves, 11 de junio de 2015, 08:55:44 CEST
+fetch origin develop 
+Date: jueves, 11 de junio de 2015, 08:56:01 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 08:56:08 CEST
+pull
+Date: jueves, 11 de junio de 2015, 08:56:13 CEST
+pull
+Date: jueves, 11 de junio de 2015, 08:56:25 CEST
+commit -am incorporado develop y commit 3 en feature-uno
+Date: jueves, 11 de junio de 2015, 08:57:20 CEST
+flow feature finish funcionalidad-uno
+Date: jueves, 11 de junio de 2015, 08:57:45 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:57:56 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 08:58:01 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 08:58:06 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 08:58:28 CEST
+add .
+Date: jueves, 11 de junio de 2015, 08:59:19 CEST
+commit -am commit en develop tras f-uno
+Date: jueves, 11 de junio de 2015, 08:59:31 CEST
+flow release start 0.1
+Date: jueves, 11 de junio de 2015, 08:59:46 CEST
+add .
+Date: jueves, 11 de junio de 2015, 09:00:24 CEST
+commit -am commit 1 de la release 0.1
+Date: jueves, 11 de junio de 2015, 09:00:36 CEST
+commit -am commit 2 de la release 0.1
+Date: jueves, 11 de junio de 2015, 09:01:01 CEST
+flow release finish 0.1
+Date: jueves, 11 de junio de 2015, 09:01:29 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 09:01:40 CEST
+push origin develop 
+Date: jueves, 11 de junio de 2015, 09:03:31 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 09:03:40 CEST
+fetch origin develop 
+Date: jueves, 11 de junio de 2015, 09:03:43 CEST
+pull origin develop 
+Date: jueves, 11 de junio de 2015, 09:03:48 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 09:03:52 CEST
+checkout master
+Date: jueves, 11 de junio de 2015, 09:03:59 CEST
+fetch origin master 
+Date: jueves, 11 de junio de 2015, 09:04:03 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 09:04:07 CEST
+checkout master
+Date: jueves, 11 de junio de 2015, 09:04:10 CEST
+push origin master 
+Date: jueves, 11 de junio de 2015, 09:04:15 CEST
+fetch origin master 
+Date: jueves, 11 de junio de 2015, 09:04:20 CEST
+pull origin master 
+Date: jueves, 11 de junio de 2015, 09:04:23 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 09:04:29 CEST
+push origin master --tags
+Date: jueves, 11 de junio de 2015, 09:04:36 CEST
+pull origin master --tags
+Date: jueves, 11 de junio de 2015, 09:04:41 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 09:04:52 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 09:08:41 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 09:08:47 CEST
+commit -am commit 1 develop tras release
+Date: jueves, 11 de junio de 2015, 09:09:30 CEST
+commit -am commit 2 develop tras release
+Date: jueves, 11 de junio de 2015, 09:10:14 CEST
+push origin develop
+Date: jueves, 11 de junio de 2015, 09:10:21 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 09:10:25 CEST
+fetch origin develop 
+Date: jueves, 11 de junio de 2015, 09:10:28 CEST
+pull
+Date: jueves, 11 de junio de 2015, 09:10:31 CEST
+flow feature start funcionalidad-dos
+Date: jueves, 11 de junio de 2015, 09:11:49 CEST
+add .
+Date: jueves, 11 de junio de 2015, 09:12:16 CEST
+commit -am commit 1 de funcionalidad2
+Date: jueves, 11 de junio de 2015, 09:12:21 CEST
+commit -am commit 2 de funcionalidad2
+Date: jueves, 11 de junio de 2015, 09:12:51 CEST
+commit -am commit 3 de funcionalidad3
+Date: jueves, 11 de junio de 2015, 09:13:17 CEST
+commit -am commit en develop mientras funcionalidad-dos
+Date: jueves, 11 de junio de 2015, 09:14:19 CEST
+push origin develop
+Date: jueves, 11 de junio de 2015, 09:14:24 CEST
+flow feature start funcionalidad3
+Date: jueves, 11 de junio de 2015, 09:14:34 CEST
+add .
+Date: jueves, 11 de junio de 2015, 09:15:01 CEST
+commit -am primer commit funcionalidad-tres
+Date: jueves, 11 de junio de 2015, 09:15:09 CEST
+commit -am commit 2 funcionalidad-tres
+Date: jueves, 11 de junio de 2015, 09:15:24 CEST
+commit -am commit 3 funcionalidad-tres
+Date: jueves, 11 de junio de 2015, 09:15:40 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 09:18:12 CEST
+pull
+Date: jueves, 11 de junio de 2015, 09:18:16 CEST
+pull
+Date: jueves, 11 de junio de 2015, 09:18:49 CEST
+commit -am commit 4 en funalidad-tres
+Date: jueves, 11 de junio de 2015, 09:19:52 CEST
+push origin develop
+Date: jueves, 11 de junio de 2015, 09:21:50 CEST
+checkout develop
+Date: jueves, 11 de junio de 2015, 09:22:09 CEST
+fetch origin develop 
+Date: jueves, 11 de junio de 2015, 09:22:12 CEST
+pull
+Date: jueves, 11 de junio de 2015, 09:22:15 CEST
+pull
+Date: jueves, 11 de junio de 2015, 09:22:54 CEST
+commit -am commit 1 tras incorporar f3 a develop y a mi
+Date: jueves, 11 de junio de 2015, 09:23:49 CEST
+commit -am commit en develop tras incorportar func 3
+Date: jueves, 11 de junio de 2015, 09:24:46 CEST
+commit -am mas commit tras func 3
+Date: jueves, 11 de junio de 2015, 09:25:11 CEST
+commit -am commit en f2 mientroas sigue develop
+Date: jueves, 11 de junio de 2015, 09:25:52 CEST
+commit -am sigo en f2
+Date: jueves, 11 de junio de 2015, 09:26:11 CEST
+commit -am sigo en f2
+Date: jueves, 11 de junio de 2015, 09:26:28 CEST
+commit -am quiero acabar f2
+Date: jueves, 11 de junio de 2015, 09:27:11 CEST
+flow feature finish funcionalidad-dos
+Date: jueves, 11 de junio de 2015, 09:27:32 CEST
+push origin develop
+Date: jueves, 11 de junio de 2015, 09:27:48 CEST
+fetch origin develop 
+Date: jueves, 11 de junio de 2015, 09:27:59 CEST
+pull
+Date: jueves, 11 de junio de 2015, 09:28:02 CEST
+push origin develop
+Date: jueves, 11 de junio de 2015, 09:28:06 CEST
+fetch origin develop 
+Date: jueves, 11 de junio de 2015, 09:28:21 CEST
+pull
+Date: jueves, 11 de junio de 2015, 09:28:24 CEST
+flow release start 0.2
+Date: jueves, 11 de junio de 2015, 09:29:00 CEST
+add .
+Date: jueves, 11 de junio de 2015, 09:29:32 CEST
+commit -am commit de release 0.2
+Date: jueves, 11 de junio de 2015, 09:29:42 CEST
+flow release finish 0.2
+Date: jueves, 11 de junio de 2015, 09:30:00 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 09:30:12 CEST
+push origin develop 
+Date: jueves, 11 de junio de 2015, 09:30:15 CEST
+checkout master
+Date: jueves, 11 de junio de 2015, 09:30:18 CEST
+push origin master --tags
+Date: jueves, 11 de junio de 2015, 09:30:23 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 11 de junio de 2015, 09:30:28 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 09:30:29 CEST
+fetch origin develop 
+Date: jueves, 11 de junio de 2015, 09:30:31 CEST
+pull
+Date: jueves, 11 de junio de 2015, 09:30:33 CEST
+checkout master
+Date: jueves, 11 de junio de 2015, 09:30:35 CEST
+pull
+Date: jueves, 11 de junio de 2015, 09:30:40 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 09:32:41 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 09:32:52 CEST
+checkout master
+Date: jueves, 11 de junio de 2015, 09:32:55 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 09:33:32 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 09:33:54 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 09:34:19 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 09:35:06 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 09:35:49 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 09:36:14 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 09:36:56 CEST
+checkout master
+Date: jueves, 11 de junio de 2015, 09:36:59 CEST
+status -sb 
+Date: jueves, 11 de junio de 2015, 09:37:01 CEST
+fetch origin master 
+Date: jueves, 11 de junio de 2015, 09:37:04 CEST
+fetch origin develop 
+Date: jueves, 11 de junio de 2015, 09:37:07 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 12 de junio de 2015, 12:22:33 CEST
+status -sb 
+Date: viernes, 12 de junio de 2015, 12:26:43 CEST
+diff
+Date: viernes, 12 de junio de 2015, 12:26:45 CEST
+diff
+Date: viernes, 12 de junio de 2015, 12:26:48 CEST
+commit -am custom aliaes in alias script not in zshrc
+Date: viernes, 12 de junio de 2015, 12:27:07 CEST
+push origin master 
+Date: viernes, 12 de junio de 2015, 12:27:17 CEST
+status -sb 
+Date: sábado, 20 de junio de 2015, 21:07:37 CEST
+status -sb 
+Date: sábado, 20 de junio de 2015, 21:07:55 CEST
+add .
+Date: sábado, 20 de junio de 2015, 21:08:39 CEST
+commit -am the very beginnig
+Date: sábado, 20 de junio de 2015, 21:08:39 CEST
+status -sb 
+Date: sábado, 20 de junio de 2015, 21:10:15 CEST
+add .
+Date: sábado, 20 de junio de 2015, 21:10:20 CEST
+status -sb 
+Date: sábado, 20 de junio de 2015, 21:10:24 CEST
+commit -am the very beginning
+Date: sábado, 20 de junio de 2015, 21:10:34 CEST
+checkout master
+Date: sábado, 20 de junio de 2015, 21:11:43 CEST
+add .
+Date: sábado, 20 de junio de 2015, 21:11:48 CEST
+merge develop
+Date: sábado, 20 de junio de 2015, 21:12:04 CEST
+commit -am init the master
+Date: sábado, 20 de junio de 2015, 21:12:33 CEST
+push origin master --tags
+Date: sábado, 20 de junio de 2015, 21:12:44 CEST
+checkout develop
+Date: sábado, 20 de junio de 2015, 21:12:49 CEST
+status -sb 
+Date: lunes, 29 de junio de 2015, 10:51:54 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 29 de junio de 2015, 10:52:32 CEST
+fetch origin develop 
+Date: lunes, 29 de junio de 2015, 10:53:37 CEST
+pull origin develop
+Date: lunes, 29 de junio de 2015, 11:14:14 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 29 de junio de 2015, 11:14:22 CEST
+status -sb 
+Date: lunes, 24 de agosto de 2015, 09:42:42 CEST
+branch 
+Date: viernes, 28 de agosto de 2015, 09:24:10 CEST
+pull
+Date: viernes, 28 de agosto de 2015, 11:16:52 CEST
+status -sb 
+Date: viernes, 28 de agosto de 2015, 11:34:19 CEST
+add .
+Date: viernes, 28 de agosto de 2015, 11:34:33 CEST
+status -sb 
+Date: viernes, 28 de agosto de 2015, 11:34:35 CEST
+commit -am primer develop commit?
+Date: viernes, 28 de agosto de 2015, 11:34:48 CEST
+status -sb 
+Date: viernes, 28 de agosto de 2015, 11:34:53 CEST
+checkout master
+Date: viernes, 28 de agosto de 2015, 11:37:07 CEST
+status -sb 
+Date: viernes, 28 de agosto de 2015, 11:37:10 CEST
+merge develop
+Date: viernes, 28 de agosto de 2015, 11:37:17 CEST
+status -sb 
+Date: viernes, 28 de agosto de 2015, 11:37:20 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 28 de agosto de 2015, 11:37:24 CEST
+tag 0.1
+Date: viernes, 28 de agosto de 2015, 11:37:40 CEST
+status -sb 
+Date: viernes, 28 de agosto de 2015, 11:38:25 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 28 de agosto de 2015, 11:38:29 CEST
+status -sb 
+Date: viernes, 28 de agosto de 2015, 11:39:16 CEST
+commit -am updated readme
+Date: viernes, 28 de agosto de 2015, 11:39:23 CEST
+push origin master
+Date: viernes, 28 de agosto de 2015, 11:39:40 CEST
+status -sb 
+Date: viernes, 28 de agosto de 2015, 11:39:46 CEST
+checkout develop
+Date: viernes, 28 de agosto de 2015, 11:40:36 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 28 de agosto de 2015, 11:41:00 CEST
+status -sb 
+Date: viernes, 28 de agosto de 2015, 11:41:06 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 28 de agosto de 2015, 11:41:13 CEST
+status -sb 
+Date: viernes, 28 de agosto de 2015, 11:42:25 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 28 de agosto de 2015, 11:42:36 CEST
+branch 
+Date: viernes, 28 de agosto de 2015, 11:51:21 CEST
+achievements
+Date: viernes, 28 de agosto de 2015, 12:36:30 CEST
+achievements -l
+Date: viernes, 28 de agosto de 2015, 12:36:44 CEST
+achievements -p
+Date: viernes, 28 de agosto de 2015, 12:37:09 CEST
+achievements -l
+Date: viernes, 28 de agosto de 2015, 12:37:55 CEST
+achievements
+Date: viernes, 28 de agosto de 2015, 12:38:03 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 28 de agosto de 2015, 12:39:43 CEST
+log -S ===
+Date: viernes, 28 de agosto de 2015, 12:40:00 CEST
+status -sb 
+Date: viernes, 28 de agosto de 2015, 14:43:27 CEST
+diff
+Date: viernes, 28 de agosto de 2015, 14:43:36 CEST
+status -sb 
+Date: domingo, 30 de agosto de 2015, 12:39:08 CEST
+status -sb 
+Date: lunes, 31 de agosto de 2015, 08:28:29 CEST
+add .
+Date: lunes, 31 de agosto de 2015, 08:28:51 CEST
+status -sb 
+Date: lunes, 31 de agosto de 2015, 08:28:57 CEST
+commit -am first commit with vagrant config
+Date: lunes, 31 de agosto de 2015, 08:29:24 CEST
+status -sb 
+Date: lunes, 31 de agosto de 2015, 08:56:44 CEST
+add .
+Date: lunes, 31 de agosto de 2015, 08:56:50 CEST
+commit -am added jenkins-phing configuration
+Date: lunes, 31 de agosto de 2015, 08:57:01 CEST
+status -sb 
+Date: lunes, 31 de agosto de 2015, 12:36:05 CEST
+status -sb 
+Date: lunes, 31 de agosto de 2015, 12:51:15 CEST
+status -sb 
+Date: lunes, 31 de agosto de 2015, 12:55:24 CEST
+commit -am new targets in phing & app_debug server environment var in app.php
+Date: lunes, 31 de agosto de 2015, 12:55:49 CEST
+status -sb 
+Date: lunes, 31 de agosto de 2015, 14:50:06 CEST
+commit -am changed summary of post to text & sqlite to mysql
+Date: lunes, 31 de agosto de 2015, 14:50:32 CEST
+status -sb 
+Date: lunes, 31 de agosto de 2015, 20:33:36 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 31 de agosto de 2015, 20:33:40 CEST
+remote -v
+Date: lunes, 31 de agosto de 2015, 20:33:42 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 31 de agosto de 2015, 20:33:48 CEST
+status -sb 
+Date: lunes, 31 de agosto de 2015, 20:33:50 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 31 de agosto de 2015, 20:33:57 CEST
+status -sb 
+Date: lunes, 31 de agosto de 2015, 20:48:12 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes,  1 de septiembre de 2015, 08:11:53 CEST
+status -sb 
+Date: martes,  1 de septiembre de 2015, 08:11:54 CEST
+status -sb 
+Date: martes,  1 de septiembre de 2015, 08:12:10 CEST
+status -sb 
+Date: martes,  1 de septiembre de 2015, 08:57:14 CEST
+status -sb 
+Date: martes,  1 de septiembre de 2015, 08:59:44 CEST
+status -sb 
+Date: martes,  1 de septiembre de 2015, 08:59:53 CEST
+remote -v
+Date: martes,  1 de septiembre de 2015, 08:59:55 CEST
+status -sb 
+Date: miércoles,  2 de septiembre de 2015, 09:21:27 CEST
+status -sb 
+Date: miércoles,  2 de septiembre de 2015, 09:22:00 CEST
+status -sb 
+Date: miércoles,  2 de septiembre de 2015, 09:22:47 CEST
+status -sb 
+Date: miércoles,  2 de septiembre de 2015, 13:22:57 CEST
+status -sb 
+Date: miércoles,  2 de septiembre de 2015, 13:23:12 CEST
+add Vagrantfile
+Date: miércoles,  2 de septiembre de 2015, 13:23:17 CEST
+add puphpet
+Date: miércoles,  2 de septiembre de 2015, 13:23:23 CEST
+status -sb 
+Date: miércoles,  2 de septiembre de 2015, 13:23:27 CEST
+commit -am fixed mapped relation between EventType and Event, and getOneOrNullResult en findLastEventOfType
+Date: miércoles,  2 de septiembre de 2015, 13:24:21 CEST
+remote -v
+Date: miércoles,  2 de septiembre de 2015, 13:24:29 CEST
+push origin develop
+Date: miércoles,  2 de septiembre de 2015, 13:25:14 CEST
+status -sb 
+Date: miércoles,  2 de septiembre de 2015, 13:40:38 CEST
+commit -am fixed stats broken when there's no data
+Date: miércoles,  2 de septiembre de 2015, 13:41:00 CEST
+push origin develop
+Date: miércoles,  2 de septiembre de 2015, 13:41:18 CEST
+checkout master
+Date: jueves,  3 de septiembre de 2015, 18:50:18 CEST
+pull
+Date: jueves,  3 de septiembre de 2015, 18:50:27 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  3 de septiembre de 2015, 18:50:32 CEST
+checkout develop
+Date: jueves,  3 de septiembre de 2015, 18:50:35 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  3 de septiembre de 2015, 18:50:42 CEST
+commit -am cursors pointers y filter form changed
+Date: viernes,  4 de septiembre de 2015, 07:39:16 CEST
+push origin develop 
+Date: viernes,  4 de septiembre de 2015, 07:39:25 CEST
+status -sb 
+Date: viernes,  4 de septiembre de 2015, 15:00:54 CEST
+status -sb 
+Date: viernes,  4 de septiembre de 2015, 15:01:30 CEST
+add .
+Date: viernes,  4 de septiembre de 2015, 15:01:38 CEST
+commit -am primer develop commit
+Date: viernes,  4 de septiembre de 2015, 15:01:58 CEST
+status -sb 
+Date: viernes,  4 de septiembre de 2015, 15:02:00 CEST
+status -sb 
+Date: sábado,  5 de septiembre de 2015, 12:47:50 CEST
+diff
+Date: sábado,  5 de septiembre de 2015, 12:48:01 CEST
+status -sb 
+Date: sábado,  5 de septiembre de 2015, 12:48:05 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: sábado,  5 de septiembre de 2015, 12:48:10 CEST
+commit -am typo
+Date: sábado,  5 de septiembre de 2015, 12:48:19 CEST
+remote -v
+Date: sábado,  5 de septiembre de 2015, 12:48:26 CEST
+branch --set-upstream-to=origin/develop
+Date: sábado,  5 de septiembre de 2015, 12:48:42 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: sábado,  5 de septiembre de 2015, 12:48:47 CEST
+fetch
+Date: sábado,  5 de septiembre de 2015, 12:50:44 CEST
+push origin develop 
+Date: sábado,  5 de septiembre de 2015, 12:50:51 CEST
+commit -am readme y changelog modificado
+Date: sábado,  5 de septiembre de 2015, 12:52:16 CEST
+flow release finish 1.0
+Date: sábado,  5 de septiembre de 2015, 12:53:12 CEST
+checkout master
+Date: sábado,  5 de septiembre de 2015, 12:53:24 CEST
+push origin master 
+Date: sábado,  5 de septiembre de 2015, 12:53:30 CEST
+checkout develop
+Date: sábado,  5 de septiembre de 2015, 12:53:34 CEST
+push origin develop 
+Date: sábado,  5 de septiembre de 2015, 12:53:39 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: domingo,  6 de septiembre de 2015, 12:36:20 CEST
+checkout master
+Date: domingo,  6 de septiembre de 2015, 12:36:24 CEST
+checkout develop
+Date: domingo,  6 de septiembre de 2015, 12:37:16 CEST
+status -sb 
+Date: domingo,  6 de septiembre de 2015, 13:03:04 CEST
+commit -am safe guard for previous feed null
+Date: domingo,  6 de septiembre de 2015, 13:03:17 CEST
+push origin develop 
+Date: domingo,  6 de septiembre de 2015, 13:03:22 CEST
+commit -am configuracion con sqlite
+Date: domingo,  6 de septiembre de 2015, 13:10:04 CEST
+push origin develop 
+Date: domingo,  6 de septiembre de 2015, 13:10:09 CEST
+commit -am modified parameters dist
+Date: domingo,  6 de septiembre de 2015, 13:16:20 CEST
+push origin develop 
+Date: domingo,  6 de septiembre de 2015, 13:16:25 CEST
+commit -am bumped up version and changelog
+Date: domingo,  6 de septiembre de 2015, 13:18:20 CEST
+flow release finish 1.1
+Date: domingo,  6 de septiembre de 2015, 13:18:34 CEST
+push origin develop 
+Date: domingo,  6 de septiembre de 2015, 13:18:42 CEST
+checkout master
+Date: domingo,  6 de septiembre de 2015, 13:18:44 CEST
+push origin master 
+Date: domingo,  6 de septiembre de 2015, 13:18:49 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: domingo,  6 de septiembre de 2015, 13:19:44 CEST
+status -sb 
+Date: domingo,  6 de septiembre de 2015, 13:34:19 CEST
+status -sb 
+Date: domingo,  6 de septiembre de 2015, 13:34:25 CEST
+checkout develop
+Date: domingo,  6 de septiembre de 2015, 13:34:29 CEST
+status -sb 
+Date: domingo,  6 de septiembre de 2015, 13:34:42 CEST
+commit -am env variables en apache para prod
+Date: domingo,  6 de septiembre de 2015, 13:34:52 CEST
+push origin develop
+Date: domingo,  6 de septiembre de 2015, 13:35:04 CEST
+flow release start 1.1.1
+Date: domingo,  6 de septiembre de 2015, 13:35:29 CEST
+status -sb 
+Date: domingo,  6 de septiembre de 2015, 13:36:18 CEST
+commit -am fijadas las variables de entorno APP_ENV y APP_DEBUG en apache
+Date: domingo,  6 de septiembre de 2015, 13:36:59 CEST
+flow release finish 1.1.1
+Date: domingo,  6 de septiembre de 2015, 13:37:48 CEST
+push origin develop 
+Date: domingo,  6 de septiembre de 2015, 13:37:56 CEST
+checkout master
+Date: domingo,  6 de septiembre de 2015, 13:38:02 CEST
+push origin master 
+Date: domingo,  6 de septiembre de 2015, 13:38:07 CEST
+status -sb 
+Date: domingo,  6 de septiembre de 2015, 13:39:52 CEST
+checkout develop
+Date: domingo,  6 de septiembre de 2015, 13:39:59 CEST
+status -sb 
+Date: domingo,  6 de septiembre de 2015, 13:41:55 CEST
+commit -am quitado del cvs app/data
+Date: domingo,  6 de septiembre de 2015, 13:42:22 CEST
+push origin develop 
+Date: domingo,  6 de septiembre de 2015, 13:42:31 CEST
+status -sb 
+Date: domingo,  6 de septiembre de 2015, 19:54:42 CEST
+commit -am more guards for empty data
+Date: domingo,  6 de septiembre de 2015, 19:54:56 CEST
+push origin develop
+Date: domingo,  6 de septiembre de 2015, 19:55:05 CEST
+commit -am guards para empty data
+Date: domingo,  6 de septiembre de 2015, 19:56:39 CEST
+flow release finish 1.1.2
+Date: domingo,  6 de septiembre de 2015, 19:57:18 CEST
+push origin develop 
+Date: domingo,  6 de septiembre de 2015, 19:57:25 CEST
+checkout master
+Date: domingo,  6 de septiembre de 2015, 19:57:27 CEST
+push origin master 
+Date: domingo,  6 de septiembre de 2015, 19:57:32 CEST
+status -sb 
+Date: domingo,  6 de septiembre de 2015, 20:01:21 CEST
+commit -am dumped js
+Date: domingo,  6 de septiembre de 2015, 20:01:39 CEST
+push origin master 
+Date: domingo,  6 de septiembre de 2015, 20:01:44 CEST
+checkout develop
+Date: lunes,  7 de septiembre de 2015, 08:02:21 CEST
+status -sb 
+Date: lunes,  7 de septiembre de 2015, 10:57:29 CEST
+diff
+Date: lunes,  7 de septiembre de 2015, 10:57:34 CEST
+status -sb 
+Date: lunes,  7 de septiembre de 2015, 11:16:21 CEST
+status -sb 
+Date: lunes,  7 de septiembre de 2015, 11:28:50 CEST
+commit -am fixes en code style, reports behat para jenkins y phpmd.xml tweaking
+Date: lunes,  7 de septiembre de 2015, 11:29:25 CEST
+status -sb 
+Date: lunes,  7 de septiembre de 2015, 12:38:20 CEST
+commit -am descripciones en las featrues
+Date: lunes,  7 de septiembre de 2015, 12:38:28 CEST
+status -sb 
+Date: lunes,  7 de septiembre de 2015, 13:19:14 CEST
+commit -am mess detector fixes
+Date: lunes,  7 de septiembre de 2015, 13:19:24 CEST
+status -sb 
+Date: lunes,  7 de septiembre de 2015, 13:24:46 CEST
+add .
+Date: lunes,  7 de septiembre de 2015, 13:24:49 CEST
+status -sb 
+Date: lunes,  7 de septiembre de 2015, 13:41:34 CEST
+status -sb 
+Date: lunes,  7 de septiembre de 2015, 13:46:45 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  7 de septiembre de 2015, 13:46:51 CEST
+commit -am mess detector fixes 2
+Date: lunes,  7 de septiembre de 2015, 13:47:00 CEST
+status -sb 
+Date: lunes,  7 de septiembre de 2015, 14:18:30 CEST
+commit -am return AssertContains en el profiler
+Date: lunes,  7 de septiembre de 2015, 14:18:46 CEST
+status -sb 
+Date: lunes,  7 de septiembre de 2015, 14:33:36 CEST
+status -sb 
+Date: martes,  8 de septiembre de 2015, 08:45:00 CEST
+status -sb 
+Date: martes,  8 de septiembre de 2015, 09:32:17 CEST
+commit -am removed vagrant
+Date: martes,  8 de septiembre de 2015, 09:32:26 CEST
+status -sb 
+Date: martes,  8 de septiembre de 2015, 11:02:12 CEST
+commit -am traducido y removed vagrant
+Date: martes,  8 de septiembre de 2015, 11:02:48 CEST
+push origin develop 
+Date: martes,  8 de septiembre de 2015, 11:02:55 CEST
+status -sb 
+Date: martes,  8 de septiembre de 2015, 14:41:34 CEST
+status -sb 
+Date: miércoles,  9 de septiembre de 2015, 09:10:57 CEST
+status -sb 
+Date: miércoles,  9 de septiembre de 2015, 09:27:15 CEST
+status -sb 
+Date: martes, 15 de septiembre de 2015, 18:02:34 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 15 de septiembre de 2015, 18:03:08 CEST
+add .
+Date: martes, 15 de septiembre de 2015, 18:03:14 CEST
+commit -am first development commit
+Date: martes, 15 de septiembre de 2015, 18:03:26 CEST
+checkout master
+Date: martes, 15 de septiembre de 2015, 18:03:34 CEST
+checkout develop
+Date: martes, 15 de septiembre de 2015, 18:04:02 CEST
+status -sb 
+Date: martes, 15 de septiembre de 2015, 18:13:38 CEST
+status -sb 
+Date: martes, 15 de septiembre de 2015, 22:04:35 CEST
+status -sb 
+Date: martes, 15 de septiembre de 2015, 22:08:34 CEST
+add .
+Date: martes, 15 de septiembre de 2015, 22:08:36 CEST
+status -sb 
+Date: martes, 15 de septiembre de 2015, 22:08:38 CEST
+status -sb 
+Date: martes, 15 de septiembre de 2015, 22:12:13 CEST
+fetch origin develop
+Date: martes, 15 de septiembre de 2015, 22:12:22 CEST
+commit -am modificaciones del correo de Thomas: Cambios en la intranet
+Date: martes, 15 de septiembre de 2015, 22:13:00 CEST
+push origin develop
+Date: martes, 15 de septiembre de 2015, 22:13:11 CEST
+status -sb 
+Date: miércoles, 16 de septiembre de 2015, 14:19:54 CEST
+add .
+Date: miércoles, 16 de septiembre de 2015, 14:20:38 CEST
+status -sb 
+Date: miércoles, 16 de septiembre de 2015, 14:24:31 CEST
+commit -am tweaking capifony configuration
+Date: miércoles, 16 de septiembre de 2015, 14:24:54 CEST
+checkout master
+Date: miércoles, 16 de septiembre de 2015, 14:26:05 CEST
+checkout develop
+Date: miércoles, 16 de septiembre de 2015, 14:26:23 CEST
+status -sb 
+Date: miércoles, 16 de septiembre de 2015, 14:37:02 CEST
+commit -am tweaking capifony configuration and parameters
+Date: miércoles, 16 de septiembre de 2015, 14:37:24 CEST
+status -sb 
+Date: miércoles, 16 de septiembre de 2015, 14:41:07 CEST
+status -sb 
+Date: miércoles, 16 de septiembre de 2015, 14:42:38 CEST
+add .
+Date: miércoles, 16 de septiembre de 2015, 14:42:46 CEST
+commit -am minmized files in base
+Date: miércoles, 16 de septiembre de 2015, 14:43:06 CEST
+commit -am more tweaking of deploy.rb
+Date: miércoles, 16 de septiembre de 2015, 22:24:56 CEST
+status -sb 
+Date: jueves, 17 de septiembre de 2015, 08:16:49 CEST
+status -sb 
+Date: jueves, 17 de septiembre de 2015, 08:23:18 CEST
+commit -am fixing documentation
+Date: jueves, 17 de septiembre de 2015, 08:23:26 CEST
+commit -am fixing class packages names
+Date: jueves, 17 de septiembre de 2015, 08:54:17 CEST
+status -sb 
+Date: jueves, 17 de septiembre de 2015, 09:32:13 CEST
+commit -am fixing class extensions
+Date: jueves, 17 de septiembre de 2015, 09:32:25 CEST
+status -sb 
+Date: jueves, 17 de septiembre de 2015, 11:29:02 CEST
+diff
+Date: jueves, 17 de septiembre de 2015, 11:29:11 CEST
+commit -am comment en provided tomcat
+Date: jueves, 17 de septiembre de 2015, 11:29:31 CEST
+status -sb 
+Date: jueves, 17 de septiembre de 2015, 13:50:45 CEST
+commit -am refactoring del concepto de criterio
+Date: jueves, 17 de septiembre de 2015, 13:51:17 CEST
+remote -v
+Date: viernes, 18 de septiembre de 2015, 08:13:32 CEST
+status -sb 
+Date: viernes, 18 de septiembre de 2015, 08:13:36 CEST
+diff
+Date: viernes, 18 de septiembre de 2015, 08:13:39 CEST
+difftool
+Date: viernes, 18 de septiembre de 2015, 08:13:42 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes, 18 de septiembre de 2015, 08:13:50 CEST
+push origin develop
+Date: viernes, 18 de septiembre de 2015, 08:14:02 CEST
+status -sb 
+Date: viernes, 18 de septiembre de 2015, 08:20:54 CEST
+difftool
+Date: viernes, 18 de septiembre de 2015, 08:21:23 CEST
+status -sb 
+Date: viernes, 18 de septiembre de 2015, 08:54:40 CEST
+branch 
+Date: sábado, 19 de septiembre de 2015, 11:19:23 CEST
+status -sb 
+Date: sábado, 19 de septiembre de 2015, 11:30:53 CEST
+commit -am cleanup,new colors on segments,new exports,aliases and funtions
+Date: sábado, 19 de septiembre de 2015, 11:31:23 CEST
+fetch origin master
+Date: sábado, 19 de septiembre de 2015, 11:31:39 CEST
+difftool
+Date: sábado, 19 de septiembre de 2015, 11:31:44 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: sábado, 19 de septiembre de 2015, 11:31:52 CEST
+reflog
+Date: sábado, 19 de septiembre de 2015, 11:31:59 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: sábado, 19 de septiembre de 2015, 11:32:02 CEST
+status -sb 
+Date: sábado, 19 de septiembre de 2015, 11:58:39 CEST
+status -sb 
+Date: sábado, 19 de septiembre de 2015, 11:59:02 CEST
+commit -am deleted compiled py
+Date: sábado, 19 de septiembre de 2015, 11:59:15 CEST
+push origin master 
+Date: sábado, 19 de septiembre de 2015, 11:59:21 CEST
+achievements
+Date: sábado, 19 de septiembre de 2015, 12:00:26 CEST
+achievements -p
+Date: sábado, 19 de septiembre de 2015, 12:00:32 CEST
+status -sb 
+Date: sábado, 19 de septiembre de 2015, 12:01:56 CEST
