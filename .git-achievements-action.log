@@ -2680,3 +2680,1129 @@ achievements -p
 Date: sábado, 19 de septiembre de 2015, 12:00:32 CEST
 status -sb 
 Date: sábado, 19 de septiembre de 2015, 12:01:56 CEST
+commit -am new logs
+Date: sábado, 19 de septiembre de 2015, 12:02:03 CEST
+remote -v
+Date: lunes, 28 de septiembre de 2015, 07:52:22 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 28 de septiembre de 2015, 09:50:36 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 08:02:55 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 08:03:37 CEST
+checkout master
+Date: martes, 29 de septiembre de 2015, 08:03:39 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 29 de septiembre de 2015, 08:03:54 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 08:07:32 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 08:22:35 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 11:45:33 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 11:46:29 CEST
+checkout master
+Date: martes, 29 de septiembre de 2015, 11:47:36 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 11:47:58 CEST
+checkout develop
+Date: martes, 29 de septiembre de 2015, 11:48:12 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 11:48:18 CEST
+checkout master
+Date: martes, 29 de septiembre de 2015, 11:48:20 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 11:49:13 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 11:49:25 CEST
+checkout develop
+Date: martes, 29 de septiembre de 2015, 11:49:45 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 11:53:30 CEST
+checkout master
+Date: martes, 29 de septiembre de 2015, 11:54:09 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 11:54:26 CEST
+checkout develop
+Date: martes, 29 de septiembre de 2015, 11:54:36 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 11:55:06 CEST
+checkout master
+Date: martes, 29 de septiembre de 2015, 11:55:35 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 11:56:07 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 12:08:37 CEST
+add .
+Date: martes, 29 de septiembre de 2015, 12:08:42 CEST
+commit -am nuevo TL redesign
+Date: martes, 29 de septiembre de 2015, 12:09:22 CEST
+flow release finish 0.1.0
+Date: martes, 29 de septiembre de 2015, 12:10:04 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 12:10:08 CEST
+status -sb 
+Date: martes, 29 de septiembre de 2015, 12:11:37 CEST
+checkout develop
+Date: martes, 29 de septiembre de 2015, 12:11:41 CEST
+status -sb 
+Date: miércoles, 30 de septiembre de 2015, 07:48:01 CEST
+commit -am new qa plugins in pom
+Date: miércoles, 30 de septiembre de 2015, 07:52:23 CEST
+status -sb 
+Date: miércoles, 30 de septiembre de 2015, 07:59:32 CEST
+commit -am plugins surefire, failsafe, jacoco, release, deploy
+Date: miércoles, 30 de septiembre de 2015, 08:00:16 CEST
+status -sb 
+Date: miércoles, 30 de septiembre de 2015, 08:00:43 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 30 de septiembre de 2015, 08:00:48 CEST
+checkout develop
+Date: miércoles, 30 de septiembre de 2015, 08:00:53 CEST
+status -sb 
+Date: miércoles, 30 de septiembre de 2015, 08:02:05 CEST
+checkout feature/qa
+Date: miércoles, 30 de septiembre de 2015, 08:02:11 CEST
+status -sb 
+Date: miércoles, 30 de septiembre de 2015, 08:02:12 CEST
+flow feature finish qa
+Date: miércoles, 30 de septiembre de 2015, 08:02:23 CEST
+status -sb 
+Date: miércoles, 30 de septiembre de 2015, 08:07:19 CEST
+commit -am version is snapshot
+Date: miércoles, 30 de septiembre de 2015, 08:07:30 CEST
+status -sb 
+Date: miércoles, 30 de septiembre de 2015, 08:46:24 CEST
+status -sb 
+Date: miércoles, 30 de septiembre de 2015, 08:46:34 CEST
+commit -am added documentation
+Date: miércoles, 30 de septiembre de 2015, 08:46:41 CEST
+status -sb 
+Date: miércoles, 30 de septiembre de 2015, 13:19:47 CEST
+status -sb 
+Date: miércoles, 30 de septiembre de 2015, 13:19:57 CEST
+status -sb 
+Date: miércoles, 30 de septiembre de 2015, 13:20:07 CEST
+commit -am checkstyle fixes
+Date: miércoles, 30 de septiembre de 2015, 13:20:14 CEST
+push origin develop 
+Date: miércoles, 30 de septiembre de 2015, 13:20:27 CEST
+status -sb 
+Date: jueves,  1 de octubre de 2015, 09:45:41 CEST
+status -sb 
+Date: jueves,  1 de octubre de 2015, 16:47:43 CEST
+commit -am code fixes in api controller
+Date: jueves,  1 de octubre de 2015, 16:48:00 CEST
+status -sb 
+Date: jueves,  1 de octubre de 2015, 17:22:37 CEST
+commit -am sonar issues fixes
+Date: jueves,  1 de octubre de 2015, 17:22:49 CEST
+status -sb 
+Date: jueves,  1 de octubre de 2015, 18:41:55 CEST
+commit -am issues critical fixed
+Date: jueves,  1 de octubre de 2015, 18:42:04 CEST
+status -sb 
+Date: viernes,  2 de octubre de 2015, 11:27:22 CEST
+status -sb 
+Date: viernes,  2 de octubre de 2015, 14:49:41 CEST
+commit -am nuevo entrada en adminIncidencias rankings, issues fixed
+Date: viernes,  2 de octubre de 2015, 14:50:10 CEST
+status -sb 
+Date: miércoles,  7 de octubre de 2015, 08:31:11 CEST
+diff
+Date: miércoles,  7 de octubre de 2015, 08:31:20 CEST
+status -sb 
+Date: miércoles,  7 de octubre de 2015, 16:12:20 CEST
+status -sb 
+Date: domingo, 11 de octubre de 2015, 00:14:42 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: domingo, 11 de octubre de 2015, 00:21:10 CEST
+push origin develop
+Date: domingo, 11 de octubre de 2015, 00:22:56 CEST
+status -sb 
+Date: domingo, 11 de octubre de 2015, 00:23:00 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: domingo, 11 de octubre de 2015, 00:23:14 CEST
+checkout master
+Date: domingo, 11 de octubre de 2015, 00:23:16 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: domingo, 11 de octubre de 2015, 00:24:32 CEST
+checkout master
+Date: domingo, 11 de octubre de 2015, 00:24:34 CEST
+checkout develop
+Date: domingo, 11 de octubre de 2015, 00:24:39 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: domingo, 11 de octubre de 2015, 00:24:54 CEST
+add .
+Date: martes, 13 de octubre de 2015, 13:35:55 CEST
+commit -am primer commit
+Date: martes, 13 de octubre de 2015, 13:35:59 CEST
+add .
+Date: martes, 13 de octubre de 2015, 13:36:28 CEST
+commit -am gruntfile
+Date: martes, 13 de octubre de 2015, 13:36:33 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:36:57 CEST
+add package.json
+Date: martes, 13 de octubre de 2015, 13:37:33 CEST
+commit -am packages.json
+Date: martes, 13 de octubre de 2015, 13:37:38 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:38:45 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:39:03 CEST
+add .gitignore
+Date: martes, 13 de octubre de 2015, 13:39:12 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:39:16 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:39:49 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:40:02 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:40:20 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:40:27 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:40:46 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:40:55 CEST
+add .gitignore
+Date: martes, 13 de octubre de 2015, 13:41:01 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:41:14 CEST
+commit -am cambio en el gruntfile
+Date: martes, 13 de octubre de 2015, 13:41:32 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:41:39 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:41:55 CEST
+add .gitignore
+Date: martes, 13 de octubre de 2015, 13:42:02 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:42:12 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 13 de octubre de 2015, 13:42:30 CEST
+reflog
+Date: martes, 13 de octubre de 2015, 13:42:38 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:42:46 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:43:08 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:55:17 CEST
+checkout master
+Date: martes, 13 de octubre de 2015, 13:56:49 CEST
+add .
+Date: martes, 13 de octubre de 2015, 13:57:12 CEST
+commit -am gitignore gruntfile
+Date: martes, 13 de octubre de 2015, 13:57:19 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:57:49 CEST
+add .gitignore
+Date: martes, 13 de octubre de 2015, 13:57:53 CEST
+commit -m packages ignore
+Date: martes, 13 de octubre de 2015, 13:58:04 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:58:07 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:58:13 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 13:59:27 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:08:59 CEST
+add .gitignore
+Date: martes, 13 de octubre de 2015, 14:09:11 CEST
+commit -m en minusculas
+Date: martes, 13 de octubre de 2015, 14:09:20 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:09:22 CEST
+add gruntfile.js
+Date: martes, 13 de octubre de 2015, 14:09:28 CEST
+commit -am con gruntfile
+Date: martes, 13 de octubre de 2015, 14:09:33 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:09:48 CEST
+commit -am cambio de nombre
+Date: martes, 13 de octubre de 2015, 14:10:05 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:10:07 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:10:19 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:11:17 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:11:28 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:16:10 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:16:22 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:16:32 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:16:47 CEST
+commit -am sin el global
+Date: martes, 13 de octubre de 2015, 14:16:52 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:17:00 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:18:33 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:18:41 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:19:10 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:20:32 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:20:54 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:21:01 CEST
+add .
+Date: martes, 13 de octubre de 2015, 14:21:41 CEST
+commit -am primer commit
+Date: martes, 13 de octubre de 2015, 14:21:45 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:22:28 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:23:58 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:24:09 CEST
+add .
+Date: martes, 13 de octubre de 2015, 14:24:34 CEST
+commit -am primer commit
+Date: martes, 13 de octubre de 2015, 14:24:38 CEST
+add .
+Date: martes, 13 de octubre de 2015, 14:25:10 CEST
+commit -am gruntfile
+Date: martes, 13 de octubre de 2015, 14:25:13 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:25:15 CEST
+add .
+Date: martes, 13 de octubre de 2015, 14:25:37 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:25:40 CEST
+commit -am el gitignore con Gruntfile
+Date: martes, 13 de octubre de 2015, 14:25:51 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:25:53 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:26:09 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:27:17 CEST
+add .gitignore
+Date: martes, 13 de octubre de 2015, 14:27:30 CEST
+commit -m sin el fin de linea
+Date: martes, 13 de octubre de 2015, 14:27:42 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:27:44 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:28:11 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:28:42 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:29:25 CEST
+add .gitignore
+Date: martes, 13 de octubre de 2015, 14:29:34 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:29:42 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:29:50 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:30:39 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:30:51 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:31:16 CEST
+add .gitignore
+Date: martes, 13 de octubre de 2015, 14:31:25 CEST
+commit -am otro
+Date: martes, 13 de octubre de 2015, 14:31:28 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:31:30 CEST
+status -sb 
+Date: martes, 13 de octubre de 2015, 14:33:08 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 07:51:04 CEST
+difftool
+Date: miércoles, 14 de octubre de 2015, 07:51:17 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 07:52:51 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 11:04:21 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 11:40:29 CEST
+commit -am coverage for ut and it test
+Date: miércoles, 14 de octubre de 2015, 11:40:41 CEST
+commit -am ut and it reports en build.directory
+Date: miércoles, 14 de octubre de 2015, 11:53:10 CEST
+commit -am quitadas properties de sonar en pom
+Date: miércoles, 14 de octubre de 2015, 11:57:15 CEST
+commit -am sonar.jacoco.itReportPath
+Date: miércoles, 14 de octubre de 2015, 12:19:32 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:07:33 CEST
+mergetool
+Date: miércoles, 14 de octubre de 2015, 17:13:13 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:13:24 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:13:36 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:17:22 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:20:25 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:21:42 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:24:10 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:26:00 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:26:21 CEST
+checkout 45cc9d12627b29d8dadb7a2d4762b3dfa8b1549a
+Date: miércoles, 14 de octubre de 2015, 17:26:56 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:26:58 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:27:28 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 14 de octubre de 2015, 17:27:40 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:28:16 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:32:32 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:37:06 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:38:28 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:48:26 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:48:48 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:49:30 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:49:46 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:52:53 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:53:28 CEST
+commit -am merge de la rama develop con feature/congelacion-slas (con conflictos y tmp branch)
+Date: miércoles, 14 de octubre de 2015, 17:53:56 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:54:23 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 17:55:36 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 14 de octubre de 2015, 17:55:42 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 18:14:46 CEST
+status -sb 
+Date: miércoles, 14 de octubre de 2015, 18:33:23 CEST
+status -sb 
+Date: jueves, 15 de octubre de 2015, 09:29:29 CEST
+clone https://github.com/mkuthan/example-jbehave.git
+Date: martes, 20 de octubre de 2015, 08:01:12 CEST
+status -sb 
+Date: martes, 20 de octubre de 2015, 13:31:56 CEST
+difftool
+Date: martes, 20 de octubre de 2015, 13:32:03 CEST
+commit -am fixes and mejor jacoco plugin
+Date: martes, 20 de octubre de 2015, 13:32:28 CEST
+commit -am fixed one critical issue
+Date: martes, 20 de octubre de 2015, 13:37:31 CEST
+status -sb 
+Date: martes, 20 de octubre de 2015, 13:38:31 CEST
+add .
+Date: martes, 20 de octubre de 2015, 13:38:37 CEST
+status -sb 
+Date: martes, 20 de octubre de 2015, 13:39:26 CEST
+status -sb 
+Date: martes, 20 de octubre de 2015, 13:54:26 CEST
+commit -am el clone no sirve para devolver una copia de date, en json peta
+Date: martes, 20 de octubre de 2015, 13:54:58 CEST
+commit -am extendiendo serializable...
+Date: martes, 20 de octubre de 2015, 14:01:52 CEST
+status -sb 
+Date: martes, 20 de octubre de 2015, 14:17:27 CEST
+commit -am corregidas las ultimas issues
+Date: martes, 20 de octubre de 2015, 14:17:37 CEST
+status -sb 
+Date: martes, 20 de octubre de 2015, 14:40:44 CEST
+commit -am coverage per test
+Date: martes, 20 de octubre de 2015, 14:50:01 CEST
+status -sb 
+Date: martes, 20 de octubre de 2015, 14:56:11 CEST
+status -sb 
+Date: martes, 20 de octubre de 2015, 15:01:56 CEST
+commit -am con coverage per test
+Date: martes, 20 de octubre de 2015, 15:02:02 CEST
+status -sb 
+Date: jueves, 22 de octubre de 2015, 13:44:33 CEST
+commit -am trying to generate all reports
+Date: jueves, 22 de octubre de 2015, 13:47:39 CEST
+status -sb 
+Date: jueves, 22 de octubre de 2015, 14:37:09 CEST
+diff
+Date: jueves, 22 de octubre de 2015, 14:37:16 CEST
+commit -am vuelta a la prueba del jenkins
+Date: jueves, 22 de octubre de 2015, 14:39:20 CEST
+commit -am nombres en los proyectos (pom)
+Date: lunes, 26 de octubre de 2015, 09:15:07 CET
+push origin master
+Date: lunes, 26 de octubre de 2015, 09:15:29 CET
+status -sb 
+Date: lunes, 26 de octubre de 2015, 12:42:58 CET
+status -sb 
+Date: miércoles, 28 de octubre de 2015, 08:45:21 CET
+difftool
+Date: miércoles, 28 de octubre de 2015, 08:45:30 CET
+commit -am fixed: unused code, some coverate report tweaks
+Date: miércoles, 28 de octubre de 2015, 08:46:11 CET
+status -sb 
+Date: miércoles, 28 de octubre de 2015, 09:13:23 CET
+commit -am exclude spring boot configuration classes from coverage
+Date: miércoles, 28 de octubre de 2015, 09:13:41 CET
+status -sb 
+Date: miércoles, 28 de octubre de 2015, 10:05:59 CET
+status -sb 
+Date: miércoles, 28 de octubre de 2015, 10:49:38 CET
+commit -am jacoco version 1.4 for jenkins reports
+Date: miércoles, 28 de octubre de 2015, 10:49:47 CET
+status -sb 
+Date: jueves, 29 de octubre de 2015, 08:47:46 CET
+difftool
+Date: jueves, 29 de octubre de 2015, 08:48:14 CET
+commit -am pom fixes and more...
+Date: jueves, 29 de octubre de 2015, 08:50:06 CET
+push origin develop
+Date: jueves, 29 de octubre de 2015, 08:50:19 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 29 de octubre de 2015, 08:54:25 CET
+status -sb 
+Date: jueves, 29 de octubre de 2015, 18:09:10 CET
+status -sb 
+Date: sábado, 31 de octubre de 2015, 12:11:53 CET
+status -sb 
+Date: martes, 10 de noviembre de 2015, 07:58:06 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 12 de noviembre de 2015, 17:25:20 CET
+status -sb 
+Date: martes, 17 de noviembre de 2015, 10:50:15 CET
+status -sb 
+Date: miércoles,  2 de diciembre de 2015, 08:47:47 CET
+status -sb 
+Date: martes, 22 de diciembre de 2015, 11:56:55 CET
+status -sb 
+Date: martes, 22 de diciembre de 2015, 13:17:49 CET
+checkout develop
+Date: viernes, 22 de enero de 2016, 08:22:02 CET
+status -sb 
+Date: viernes, 22 de enero de 2016, 08:22:19 CET
+status -sb 
+Date: viernes, 22 de enero de 2016, 09:09:41 CET
+diff
+Date: viernes, 22 de enero de 2016, 09:09:53 CET
+difftool
+Date: viernes, 22 de enero de 2016, 09:09:59 CET
+commit -am cambios para ejecutar en dev con H2
+Date: viernes, 22 de enero de 2016, 09:10:38 CET
+push origin develop
+Date: viernes, 22 de enero de 2016, 09:10:48 CET
+status -sb 
+Date: viernes, 22 de enero de 2016, 12:30:12 CET
+commit -am added pantalla de administracion
+Date: viernes, 22 de enero de 2016, 14:04:08 CET
+push origin develop
+Date: viernes, 22 de enero de 2016, 14:04:22 CET
+status -sb 
+Date: martes, 26 de enero de 2016, 10:08:13 CET
+commit -am pantalla de administracion y sus servicios
+Date: martes, 26 de enero de 2016, 10:08:41 CET
+push origin develop
+Date: martes, 26 de enero de 2016, 10:08:49 CET
+fetch origin develop
+Date: martes, 26 de enero de 2016, 10:27:44 CET
+status -sb 
+Date: martes, 26 de enero de 2016, 10:27:50 CET
+fetch origin develop
+Date: martes, 26 de enero de 2016, 10:28:02 CET
+status -sb 
+Date: martes, 26 de enero de 2016, 10:51:41 CET
+commit -am index en segEconomico
+Date: martes, 26 de enero de 2016, 10:51:53 CET
+fetch origin develop
+Date: martes, 26 de enero de 2016, 10:52:15 CET
+fetch origin develop
+Date: martes, 26 de enero de 2016, 10:52:39 CET
+pull
+Date: martes, 26 de enero de 2016, 10:52:48 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes, 26 de enero de 2016, 10:52:57 CET
+push origin develop
+Date: martes, 26 de enero de 2016, 10:53:06 CET
+status -sb 
+Date: martes, 26 de enero de 2016, 10:53:09 CET
+status -sb 
+Date: martes, 26 de enero de 2016, 11:14:15 CET
+commit -am fixes y el pom del web
+Date: martes, 26 de enero de 2016, 11:14:27 CET
+push origin develop
+Date: martes, 26 de enero de 2016, 11:14:33 CET
+status -sb 
+Date: martes, 26 de enero de 2016, 15:54:30 CET
+status -sb 
+Date: martes, 26 de enero de 2016, 17:04:27 CET
+commit -am endpoints para permisos
+Date: martes, 26 de enero de 2016, 17:04:52 CET
+fetch origin develop
+Date: martes, 26 de enero de 2016, 17:05:17 CET
+status -sb 
+Date: martes, 26 de enero de 2016, 18:38:47 CET
+commit -am parte de unidades stock del dashboard
+Date: martes, 26 de enero de 2016, 18:39:00 CET
+push origin develop
+Date: martes, 26 de enero de 2016, 18:39:10 CET
+status -sb 
+Date: miércoles, 27 de enero de 2016, 08:56:19 CET
+status -sb 
+Date: miércoles, 27 de enero de 2016, 08:56:31 CET
+commit -am fixes en textos y styles
+Date: miércoles, 27 de enero de 2016, 08:56:48 CET
+fetch origin develop
+Date: miércoles, 27 de enero de 2016, 08:56:58 CET
+push origin develop
+Date: miércoles, 27 de enero de 2016, 08:57:19 CET
+status -sb 
+Date: miércoles, 27 de enero de 2016, 13:26:01 CET
+add .
+Date: miércoles, 27 de enero de 2016, 13:26:37 CET
+commit -am nuevos iconos e imagenes y heatmap en dashboard unidad front
+Date: miércoles, 27 de enero de 2016, 13:26:52 CET
+status -sb 
+Date: miércoles, 27 de enero de 2016, 14:58:54 CET
+commit -am indicadores y heatmap front en el dashboard unidad
+Date: miércoles, 27 de enero de 2016, 14:59:08 CET
+push origin develop
+Date: miércoles, 27 de enero de 2016, 14:59:27 CET
+status -sb 
+Date: jueves, 28 de enero de 2016, 13:11:20 CET
+add .
+Date: jueves, 28 de enero de 2016, 13:12:05 CET
+commit -am limpiando ficheros comunes y arreglando css select2 y demas js
+Date: jueves, 28 de enero de 2016, 13:12:28 CET
+fetch origin develop 
+Date: jueves, 28 de enero de 2016, 13:12:59 CET
+status -sb 
+Date: jueves, 28 de enero de 2016, 13:18:47 CET
+status -sb 
+Date: jueves, 28 de enero de 2016, 18:02:44 CET
+commit -am javascript y front end del dashboar
+Date: jueves, 28 de enero de 2016, 18:03:34 CET
+fetch origin develop
+Date: jueves, 28 de enero de 2016, 18:03:58 CET
+reflog
+Date: jueves, 28 de enero de 2016, 18:04:07 CET
+pull origin develop
+Date: jueves, 28 de enero de 2016, 18:04:28 CET
+status -sb 
+Date: jueves, 28 de enero de 2016, 18:18:04 CET
+difftool
+Date: jueves, 28 de enero de 2016, 18:18:21 CET
+fetch origin develop 
+Date: viernes, 29 de enero de 2016, 09:26:56 CET
+pull origin develop 
+Date: viernes, 29 de enero de 2016, 09:27:10 CET
+commit -am todo el maquetado de dashboard y de on-line, falta un poco de js
+Date: viernes, 29 de enero de 2016, 15:01:05 CET
+status -sb 
+Date: lunes,  1 de febrero de 2016, 08:27:28 CET
+fetch origin develop
+Date: lunes,  1 de febrero de 2016, 08:27:43 CET
+commit -am permisos en pagina de profile
+Date: lunes,  1 de febrero de 2016, 08:28:09 CET
+pull origin develop
+Date: lunes,  1 de febrero de 2016, 08:28:17 CET
+status -sb 
+Date: lunes,  1 de febrero de 2016, 08:39:00 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes,  1 de febrero de 2016, 08:40:54 CET
+status -sb 
+Date: viernes,  5 de febrero de 2016, 09:29:50 CET
+status -sb 
+Date: viernes,  5 de febrero de 2016, 09:30:01 CET
+diff
+Date: viernes,  5 de febrero de 2016, 09:30:11 CET
+status -sb 
+Date: viernes,  5 de febrero de 2016, 09:30:12 CET
+status -sb 
+Date: viernes,  5 de febrero de 2016, 09:30:47 CET
+pull origin develop
+Date: viernes,  5 de febrero de 2016, 09:30:59 CET
+fetch origin develop 
+Date: jueves, 11 de febrero de 2016, 08:30:07 CET
+status -sb 
+Date: jueves, 11 de febrero de 2016, 08:31:29 CET
+fetch origin develop 
+Date: jueves, 11 de febrero de 2016, 10:52:44 CET
+status -sb 
+Date: jueves, 11 de febrero de 2016, 10:52:48 CET
+diff
+Date: jueves, 11 de febrero de 2016, 10:52:57 CET
+status -sb 
+Date: jueves, 11 de febrero de 2016, 11:04:29 CET
+add .
+Date: jueves, 11 de febrero de 2016, 11:04:33 CET
+commit -am minimos arreglos css y thymeleaf... algo de spring boot. Estado inicial0.1.0
+Date: jueves, 11 de febrero de 2016, 11:05:12 CET
+push origin develop
+Date: jueves, 11 de febrero de 2016, 11:05:21 CET
+remote -v
+Date: jueves, 11 de febrero de 2016, 11:05:25 CET
+checkout master
+Date: jueves, 11 de febrero de 2016, 11:08:33 CET
+status -sb 
+Date: jueves, 11 de febrero de 2016, 11:10:10 CET
+checkout develop
+Date: jueves, 11 de febrero de 2016, 11:10:12 CET
+flow release start 0.1.1
+Date: jueves, 11 de febrero de 2016, 11:10:30 CET
+status -sb 
+Date: jueves, 11 de febrero de 2016, 11:12:53 CET
+commit -am Changelog and Readme
+Date: jueves, 11 de febrero de 2016, 11:13:05 CET
+checkout master
+Date: jueves, 11 de febrero de 2016, 11:14:37 CET
+checkout develop
+Date: jueves, 11 de febrero de 2016, 11:14:42 CET
+checkout master
+Date: jueves, 11 de febrero de 2016, 11:14:49 CET
+checkout develop
+Date: jueves, 11 de febrero de 2016, 11:15:55 CET
+status -sb 
+Date: jueves, 11 de febrero de 2016, 16:10:29 CET
+status -sb 
+Date: lunes, 15 de febrero de 2016, 07:58:42 CET
+status -sb 
+Date: martes, 16 de febrero de 2016, 17:36:25 CET
+diff exports.zsh
+Date: martes, 16 de febrero de 2016, 17:36:42 CET
+difftool
+Date: martes, 16 de febrero de 2016, 17:36:48 CET
+difftool
+Date: martes, 16 de febrero de 2016, 17:37:10 CET
+status -sb 
+Date: martes, 16 de febrero de 2016, 17:46:16 CET
+add sources.zsh
+Date: martes, 16 de febrero de 2016, 17:46:21 CET
+status -sb 
+Date: martes, 16 de febrero de 2016, 17:46:23 CET
+commit -am colores e iconos en prompt y added sources file
+Date: martes, 16 de febrero de 2016, 17:46:45 CET
+push origin master
+Date: martes, 16 de febrero de 2016, 17:46:59 CET
+status -sb 
+Date: martes, 16 de febrero de 2016, 17:57:49 CET
+branch 
+Date: martes, 16 de febrero de 2016, 17:57:53 CET
+diff
+Date: martes, 16 de febrero de 2016, 17:57:59 CET
+commit -am added translation
+Date: martes, 16 de febrero de 2016, 17:58:05 CET
+push origin master
+Date: martes, 16 de febrero de 2016, 17:58:20 CET
+status -sb 
+Date: miércoles, 17 de febrero de 2016, 08:05:13 CET
+stash --help
+Date: miércoles, 17 de febrero de 2016, 08:05:25 CET
+status -sb 
+Date: lunes, 22 de febrero de 2016, 09:41:24 CET
+status -sb 
+Date: lunes, 22 de febrero de 2016, 10:56:13 CET
+remote -v
+Date: lunes, 22 de febrero de 2016, 11:53:52 CET
+remote -v
+Date: lunes, 22 de febrero de 2016, 12:03:58 CET
+status -sb 
+Date: lunes, 22 de febrero de 2016, 13:16:33 CET
+status -sb 
+Date: martes, 23 de febrero de 2016, 11:01:07 CET
+difftool
+Date: martes, 23 de febrero de 2016, 11:01:22 CET
+status -sb 
+Date: miércoles, 24 de febrero de 2016, 08:18:00 CET
+fetch origin develop 
+Date: miércoles, 24 de febrero de 2016, 08:18:11 CET
+pull origin develop 
+Date: miércoles, 24 de febrero de 2016, 08:18:22 CET
+status -sb 
+Date: jueves, 25 de febrero de 2016, 08:08:20 CET
+status -sb 
+Date: jueves, 25 de febrero de 2016, 15:54:49 CET
+commit -am spring security en desarrollo
+Date: jueves, 25 de febrero de 2016, 15:54:58 CET
+diff
+Date: jueves, 25 de febrero de 2016, 15:59:09 CET
+status -sb 
+Date: jueves, 25 de febrero de 2016, 15:59:11 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves, 25 de febrero de 2016, 16:18:26 CET
+status -sb 
+Date: viernes, 26 de febrero de 2016, 12:59:08 CET
+status -sb 
+Date: viernes, 26 de febrero de 2016, 12:59:25 CET
+status -sb 
+Date: viernes, 26 de febrero de 2016, 13:00:29 CET
+add .
+Date: viernes, 26 de febrero de 2016, 14:53:56 CET
+status -sb 
+Date: viernes, 26 de febrero de 2016, 14:53:59 CET
+commit -am cambios de sqls en local para dev (no version) y subida de version spring boot,thymeleaf-security
+Date: viernes, 26 de febrero de 2016, 14:55:11 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: domingo, 28 de febrero de 2016, 10:32:26 CET
+status -sb 
+Date: lunes, 29 de febrero de 2016, 08:17:52 CET
+commit -am boton volver a inicio en profile
+Date: lunes, 29 de febrero de 2016, 08:18:04 CET
+status -sb 
+Date: lunes, 29 de febrero de 2016, 08:18:05 CET
+remote -v
+Date: lunes, 29 de febrero de 2016, 08:18:07 CET
+status -sb 
+Date: lunes, 29 de febrero de 2016, 14:48:48 CET
+status -sb 
+Date: lunes, 29 de febrero de 2016, 14:49:35 CET
+status -sb 
+Date: lunes, 29 de febrero de 2016, 14:51:46 CET
+status -sb 
+Date: lunes, 29 de febrero de 2016, 14:52:39 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 09:41:22 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 12:01:44 CET
+commit -am limpieza de codigo y poms... en STS
+Date: martes,  1 de marzo de 2016, 12:03:50 CET
+add .
+Date: martes,  1 de marzo de 2016, 12:03:55 CET
+commit -am added sp.css aunque vacio
+Date: martes,  1 de marzo de 2016, 12:04:13 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 12:31:49 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 12:32:26 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 12:33:54 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 12:33:58 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 13:08:15 CET
+commit -am algun css y js que se habian quedado despues del merge
+Date: martes,  1 de marzo de 2016, 13:08:29 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 16:44:55 CET
+add .
+Date: martes,  1 de marzo de 2016, 16:44:59 CET
+commit -am modificada la configuracion para cloud foundry
+Date: martes,  1 de marzo de 2016, 16:45:13 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 16:46:17 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes,  1 de marzo de 2016, 16:46:19 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 16:58:55 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: martes,  1 de marzo de 2016, 16:59:03 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 16:59:33 CET
+commit -am el fichero application.properties de config lo borro que tiene info sensible
+Date: martes,  1 de marzo de 2016, 16:59:48 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 17:07:23 CET
+commit -am el fichero de properties de cloud es el mismo que dev
+Date: martes,  1 de marzo de 2016, 17:12:26 CET
+status -sb 
+Date: martes,  1 de marzo de 2016, 17:13:20 CET
+status -sb 
+Date: miércoles,  2 de marzo de 2016, 08:33:54 CET
+diff
+Date: miércoles,  2 de marzo de 2016, 08:34:49 CET
+diff --word-diff
+Date: miércoles,  2 de marzo de 2016, 08:35:23 CET
+diff --word-diff
+Date: miércoles,  2 de marzo de 2016, 08:35:40 CET
+diff
+Date: miércoles,  2 de marzo de 2016, 08:51:40 CET
+checkout develop
+Date: miércoles,  2 de marzo de 2016, 08:51:44 CET
+commit -am running test
+Date: miércoles,  2 de marzo de 2016, 08:51:57 CET
+checkout develop
+Date: miércoles,  2 de marzo de 2016, 08:52:26 CET
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles,  2 de marzo de 2016, 08:52:35 CET
+status -sb 
+Date: miércoles,  2 de marzo de 2016, 09:28:30 CET
+commit -am fixing it test and authentication in cloud profile
+Date: miércoles,  2 de marzo de 2016, 09:28:55 CET
+checkout feature/cloud-foundry
+Date: miércoles,  2 de marzo de 2016, 12:53:18 CET
+status -sb 
+Date: miércoles,  2 de marzo de 2016, 12:53:20 CET
+status -sb 
+Date: miércoles,  2 de marzo de 2016, 13:29:17 CET
+commit -am tweakenado la configuracion
+Date: miércoles,  2 de marzo de 2016, 13:35:19 CET
+status -sb 
+Date: miércoles,  2 de marzo de 2016, 13:35:22 CET
+add .
+Date: miércoles,  2 de marzo de 2016, 13:35:25 CET
+commit -am manifest
+Date: miércoles,  2 de marzo de 2016, 13:35:29 CET
+checkout develop
+Date: miércoles,  2 de marzo de 2016, 13:35:32 CET
+commit -am fixed test
+Date: miércoles,  2 de marzo de 2016, 13:36:02 CET
+checkout feature/cloud-foundry
+Date: miércoles,  2 de marzo de 2016, 13:36:09 CET
+status -sb 
+Date: miércoles,  2 de marzo de 2016, 14:06:07 CET
+commit -am configuracion final pivotal
+Date: miércoles,  2 de marzo de 2016, 14:06:19 CET
+push origin feature/cloud-foundry
+Date: miércoles,  2 de marzo de 2016, 14:06:59 CET
+status -sb 
+Date: jueves,  3 de marzo de 2016, 07:56:01 CET
+status -sb 
+Date: jueves,  3 de marzo de 2016, 08:11:17 CET
+status -sb 
+Date: jueves,  3 de marzo de 2016, 08:51:02 CET
+status -sb 
+Date: jueves,  3 de marzo de 2016, 08:54:59 CET
+status -sb 
+Date: viernes,  4 de marzo de 2016, 09:28:07 CET
+diff
+Date: viernes,  4 de marzo de 2016, 09:28:13 CET
+commit -am minor changes
+Date: viernes,  4 de marzo de 2016, 09:28:34 CET
+checkout develop
+Date: viernes,  4 de marzo de 2016, 09:28:38 CET
+status -sb 
+Date: lunes,  7 de marzo de 2016, 12:02:30 CET
+commit -am limpiando y modificando alguna variable para probar el server config
+Date: lunes,  7 de marzo de 2016, 12:02:46 CET
+push origin master 
+Date: lunes,  7 de marzo de 2016, 12:02:53 CET
+status -sb 
+Date: lunes,  7 de marzo de 2016, 12:26:05 CET
+commit -am hot swap change
+Date: lunes,  7 de marzo de 2016, 12:26:13 CET
+push origin master 
+Date: lunes,  7 de marzo de 2016, 12:26:20 CET
+status -sb 
+Date: miércoles,  9 de marzo de 2016, 08:08:58 CET
+status -sb 
+Date: miércoles, 16 de marzo de 2016, 12:12:19 CET
+status -sb 
+Date: miércoles, 16 de marzo de 2016, 12:13:06 CET
+difftool
+Date: miércoles, 16 de marzo de 2016, 12:13:13 CET
+commit -am configuration files changed
+Date: miércoles, 16 de marzo de 2016, 12:13:30 CET
+status -sb 
+Date: jueves, 17 de marzo de 2016, 09:28:47 CET
+commit -am addes some going back buttons and tweaks in capifony deploy
+Date: jueves, 17 de marzo de 2016, 09:29:44 CET
+status -sb 
+Date: jueves, 17 de marzo de 2016, 09:29:47 CET
+remote -v
+Date: jueves, 17 de marzo de 2016, 09:29:49 CET
+status -sb 
+Date: martes, 29 de marzo de 2016, 13:53:57 CEST
+add .
+Date: martes, 29 de marzo de 2016, 13:54:18 CEST
+status -sb 
+Date: martes, 29 de marzo de 2016, 13:54:20 CEST
+status -sb 
+Date: martes, 29 de marzo de 2016, 13:54:37 CEST
+commit -am symfony 2.7.10 - repo reloaded
+Date: martes, 29 de marzo de 2016, 13:58:59 CEST
+status -sb 
+Date: martes, 29 de marzo de 2016, 14:19:40 CEST
+status -sb 
+Date: martes, 29 de marzo de 2016, 15:48:38 CEST
+add .
+Date: martes, 29 de marzo de 2016, 15:49:51 CEST
+diff
+Date: martes, 29 de marzo de 2016, 15:50:04 CEST
+difftool
+Date: martes, 29 de marzo de 2016, 15:50:09 CEST
+status -sb 
+Date: martes, 29 de marzo de 2016, 15:50:22 CEST
+diff -v
+Date: martes, 29 de marzo de 2016, 15:50:37 CEST
+status -sb 
+Date: martes, 29 de marzo de 2016, 16:34:27 CEST
+diff
+Date: martes, 29 de marzo de 2016, 16:35:54 CEST
+status -sb 
+Date: miércoles, 30 de marzo de 2016, 07:54:10 CEST
+commit -am added genero to user
+Date: miércoles, 30 de marzo de 2016, 07:54:24 CEST
+add .
+Date: miércoles, 30 de marzo de 2016, 07:54:26 CEST
+status -sb 
+Date: miércoles, 30 de marzo de 2016, 07:54:48 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles, 30 de marzo de 2016, 07:54:56 CEST
+status -sb 
+Date: jueves, 31 de marzo de 2016, 08:46:00 CEST
+status -sb 
+Date: jueves, 31 de marzo de 2016, 09:00:49 CEST
+status -sb 
+Date: jueves, 31 de marzo de 2016, 09:14:14 CEST
+status -sb 
+Date: jueves, 31 de marzo de 2016, 09:14:45 CEST
+status -sb 
+Date: jueves, 31 de marzo de 2016, 09:14:50 CEST
+status -sb 
+Date: jueves, 31 de marzo de 2016, 09:15:25 CEST
+status -sb 
+Date: jueves, 31 de marzo de 2016, 09:15:47 CEST
+commit -am added bootswatch/flatly
+Date: jueves, 31 de marzo de 2016, 09:16:04 CEST
+status -sb 
+Date: domingo,  3 de abril de 2016, 11:43:57 CEST
+diff Gruntfile.js
+Date: domingo,  3 de abril de 2016, 11:44:10 CEST
+status -sb 
+Date: domingo,  3 de abril de 2016, 11:45:35 CEST
+commit -am added bootswatch flatly files
+Date: domingo,  3 de abril de 2016, 11:45:51 CEST
+status -sb 
+Date: domingo,  3 de abril de 2016, 11:51:18 CEST
+status -sb 
+Date: domingo,  3 de abril de 2016, 11:51:36 CEST
+checkout master
+Date: domingo,  3 de abril de 2016, 11:51:43 CEST
+status -sb 
+Date: domingo,  3 de abril de 2016, 11:51:44 CEST
+checkout develop
+Date: domingo,  3 de abril de 2016, 11:51:56 CEST
+status -sb 
+Date: domingo,  3 de abril de 2016, 11:51:58 CEST
+status -sb 
+Date: domingo,  3 de abril de 2016, 11:59:41 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: domingo,  3 de abril de 2016, 11:59:44 CEST
+flow release start 0.5
+Date: domingo,  3 de abril de 2016, 12:02:52 CEST
+status -sb 
+Date: domingo,  3 de abril de 2016, 12:02:58 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: domingo,  3 de abril de 2016, 12:06:59 CEST
+status -sb 
+Date: domingo,  3 de abril de 2016, 12:07:00 CEST
+commit -am Bumped the version and changelog
+Date: domingo,  3 de abril de 2016, 12:07:40 CEST
+flow release finish 0.5
+Date: domingo,  3 de abril de 2016, 12:09:32 CEST
+checkout master
+Date: domingo,  3 de abril de 2016, 12:09:39 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: domingo,  3 de abril de 2016, 12:09:48 CEST
+checkout develop
+Date: domingo,  3 de abril de 2016, 12:09:51 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: domingo,  3 de abril de 2016, 12:10:18 CEST
+remote -v
+Date: domingo,  3 de abril de 2016, 12:10:22 CEST
+push origin develop 
+Date: domingo,  3 de abril de 2016, 12:10:54 CEST
+checkout master
+Date: domingo,  3 de abril de 2016, 12:11:00 CEST
+push origin master
+Date: domingo,  3 de abril de 2016, 12:11:15 CEST
+push origin master --tags
+Date: domingo,  3 de abril de 2016, 12:11:38 CEST
+status -sb 
+Date: lunes,  4 de abril de 2016, 07:52:14 CEST
+checkout develop
+Date: lunes,  4 de abril de 2016, 07:52:22 CEST
+status -sb 
+Date: lunes,  4 de abril de 2016, 08:04:04 CEST
+status -sb 
+Date: lunes,  4 de abril de 2016, 08:04:45 CEST
+commit -am col layout in profile edit
+Date: lunes,  4 de abril de 2016, 08:05:03 CEST
+status -sb 
+Date: martes,  5 de abril de 2016, 08:05:29 CEST
+status -sb 
+Date: miércoles,  6 de abril de 2016, 09:21:55 CEST
+add .
+Date: miércoles,  6 de abril de 2016, 09:24:30 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles,  6 de abril de 2016, 09:24:39 CEST
+commit -am added files from disk to repo
+Date: miércoles,  6 de abril de 2016, 09:25:03 CEST
+status -sb 
+Date: miércoles,  6 de abril de 2016, 09:25:06 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: miércoles,  6 de abril de 2016, 14:44:29 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: jueves,  7 de abril de 2016, 19:12:38 CEST
+status -sb 
+Date: jueves,  7 de abril de 2016, 19:36:11 CEST
+add .
+Date: jueves,  7 de abril de 2016, 19:36:23 CEST
+status -sb 
+Date: jueves,  7 de abril de 2016, 19:36:27 CEST
+commit -am include de la consola symfony
+Date: jueves,  7 de abril de 2016, 19:36:55 CEST
+status -sb 
+Date: jueves,  7 de abril de 2016, 19:47:40 CEST
+commit -am changed. behat executable to vendor/bin/behat
+Date: jueves,  7 de abril de 2016, 19:48:15 CEST
+status -sb 
+Date: viernes,  8 de abril de 2016, 09:12:23 CEST
+status -sb 
+Date: viernes,  8 de abril de 2016, 09:25:52 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: viernes,  8 de abril de 2016, 10:01:43 CEST
+status -sb 
+Date: viernes,  8 de abril de 2016, 11:00:01 CEST
+commit -am some nicer style
+Date: viernes,  8 de abril de 2016, 11:11:25 CEST
+remote -v
+Date: viernes,  8 de abril de 2016, 11:11:30 CEST
+push origin develop
+Date: viernes,  8 de abril de 2016, 11:11:45 CEST
+status -sb 
+Date: viernes,  8 de abril de 2016, 11:42:08 CEST
+status -sb 
+Date: viernes,  8 de abril de 2016, 12:14:59 CEST
+difftool
+Date: viernes,  8 de abril de 2016, 12:15:05 CEST
+commit -am some minor changes in connection pages
+Date: viernes,  8 de abril de 2016, 12:19:19 CEST
+remote -v
+Date: lunes, 11 de abril de 2016, 14:01:43 CEST
+log --graph --pretty=format:'%C(magenta)%h%C(reset)%C(yellow)%d%C(reset) %s - %C(blue bold)%cr%C(reset) %C(black)(%an)%C(reset)' 
+Date: lunes, 11 de abril de 2016, 14:02:03 CEST
+checkout develop
+Date: lunes, 11 de abril de 2016, 14:03:55 CEST
+status -sb 
+Date: martes, 12 de abril de 2016, 11:06:08 CEST
+difftool
+Date: martes, 12 de abril de 2016, 11:06:20 CEST
+status -sb 
+Date: martes, 12 de abril de 2016, 11:06:59 CEST
+add .
+Date: martes, 12 de abril de 2016, 11:08:30 CEST
+status -sb 
+Date: martes, 12 de abril de 2016, 11:12:05 CEST
+achievements -p
+Date: martes, 12 de abril de 2016, 11:12:23 CEST
+status -sb 
+Date: martes, 12 de abril de 2016, 11:12:38 CEST
